@@ -29,5 +29,19 @@ export const apiList = [
 		description: "Brawl Stars API to provide assets, logs and lots of useful data.",
 		apiUrl: "https://api.starlist.pro",
 		docs: "https://www.starlist.pro/dashboard/"
+	},
+	{
+		id: "pokemon",
+		name: "Pokemon API",
+		description: "Official Pokemon API",
+		apiUrl: "https://api.pokemon.com/us/api/pokedex/kalos",
+		official: true
+	},
+	{
+		id: "pokeapi",
+		name: "PokeApi",
+		description: "All the Pokémon data you'll ever need in one place.",
+		apiUrl: "https://pokeapi.co/api/v2/",
+		docs: "https://pokeapi.co/"
 	}
 ];
