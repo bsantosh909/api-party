@@ -21,6 +21,7 @@
 				v-for="(cat, i) of details.categories"
 				:key="i"
 				class="mx-1 text-xs"
+				:color="getBadgeColor(cat)"
 			>
 				{{ cat }}
 			</Badge>
@@ -59,6 +60,8 @@
 </template>
 
 <script>
+	import { getColor } from "@/assets/badge";
+
 	export default {
 		props: {
 			details: Object
@@ -73,6 +76,11 @@
 					default:
 						return "None";
 				}
+			}
+		},
+		methods: {
+			getBadgeColor(id) {
+				return getColor(id);
 			}
 		}
 	};
