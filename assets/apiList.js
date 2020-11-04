@@ -43,5 +43,20 @@ export const apiList = [
 		description: "All the Pokémon data you'll ever need in one place.",
 		apiUrl: "https://pokeapi.co/api/v2/",
 		docs: "https://pokeapi.co/"
+	},
+	{
+		id: "discord",
+		name: "Discord API",
+		description: "Create awesome powerful stuffs with the discord API.",
+		apiUrl: "https://discord.com/api",
+		docs: "https://discord.com/developers/docs/intro",
+		official: true
+	},
+	{
+		id: "opentdb",
+		name: "Open Trivia DB",
+		description: "Free to use, user-contributed trivia question database.",
+		apiUrl: "https://opentdb.com/api.php?amount=1",
+		docs: "https://opentdb.com/api_config.php"
 	}
 ];
