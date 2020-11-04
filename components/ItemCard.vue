@@ -2,7 +2,7 @@
 	<div class="bg-gray-200 border shadow hover:shadow-lg rounded-md p-4 w-84">
 		<div align="center">
 			<img
-				src="https://via.placeholder.com/128"
+				src="https://via.placeholder.com/96"
 				alt="logo"
 				title="API logo"
 				class="w-24 h-24 rounded-full mb-2"

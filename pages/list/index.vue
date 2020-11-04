@@ -1,6 +1,6 @@
 <template>
 	<div class="container mx-auto">
-		<div class="pb-10 mb-5 mx-4 text-center border-b">
+		<div class="pb-10 mb-10 mx-4 text-center border-b">
 			<span class="font-semibold text-3xl">Categories</span>
 			<div class="pt-4">
 				<button
