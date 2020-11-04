@@ -19,7 +19,7 @@
 		<div class="text-center border-gray-400 border-t border-b my-3 py-3">
 			<span>{{ details.description }}</span>
 		</div>
-		<div>
+		<div v-if="details.apiUrl">
 			<span class="mdi mdi-link-variant mdi-18px mr-1" />
 			<span>Base API url: </span>
 			<a
