@@ -50,6 +50,11 @@
 				Click Here
 			</a>
 		</div>
+		<div v-if="details.auth">
+			<span class="mdi mdi-key mdi-18px mr-1" />
+			<span>Authentication: </span>
+			<span class="font-semibold">{{ apiAuth }}</span>
+		</div>
 	</div>
 </template>
 
@@ -57,6 +62,18 @@
 	export default {
 		props: {
 			details: Object
+		},
+		computed: {
+			apiAuth() {
+				switch (this.details.auth) {
+					case 1:
+						return "API Key";
+					case 2:
+						return "OAuth";
+					default:
+						return "None";
+				}
+			}
 		}
 	};
 </script>

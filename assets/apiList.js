@@ -6,7 +6,8 @@ export const apiList = [
 		apiUrl: "https://api.clashofclans.com/v1/",
 		docs: "https://developer.clashofclans.com/",
 		official: true,
-		categories: ["games"]
+		categories: ["games"],
+		auth: 1
 	},
 	{
 		id: "cr.supercell",
@@ -15,7 +16,8 @@ export const apiList = [
 		apiUrl: "https://api.clashroyale.com/v1/",
 		docs: "https://developer.clashroyale.com/",
 		official: true,
-		categories: ["games"]
+		categories: ["games"],
+		auth: 1
 	},
 	{
 		id: "bs.supercell",
@@ -24,7 +26,8 @@ export const apiList = [
 		apiUrl: "https://api.brawlstars.com/v1/",
 		docs: "https://developer.brawlstars.com/",
 		official: true,
-		categories: ["games"]
+		categories: ["games"],
+		auth: 1
 	},
 	{
 		id: "starlist",
@@ -32,7 +35,8 @@ export const apiList = [
 		description: "Brawl Stars API to provide assets, logs and lots of useful data.",
 		apiUrl: "https://api.starlist.pro",
 		docs: "https://www.starlist.pro/dashboard/",
-		categories: ["games"]
+		categories: ["games"],
+		auth: 1
 	},
 	{
 		id: "pokemon",
@@ -57,7 +61,8 @@ export const apiList = [
 		apiUrl: "https://discord.com/api",
 		docs: "https://discord.com/developers/docs/intro",
 		official: true,
-		categories: ["social"]
+		categories: ["social"],
+		auth: 2
 	},
 	{
 		id: "opentdb",
