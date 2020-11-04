@@ -71,5 +71,47 @@ export const apiList = [
 		apiUrl: "https://opentdb.com/api.php?amount=1",
 		docs: "https://opentdb.com/api_config.php",
 		categories: ["entertainment"]
+	},
+	{
+		id: "pubg",
+		name: "PUBG API",
+		description: "PlayerUnknown\'s Battlegrounds API for stats.",
+		docs: "https://developer.pubg.com/",
+		official: true,
+		categories: ["games"],
+		auth: 1
+	},
+	{
+		id: "riot.games",
+		name: "Riot Games API",
+		description: "League of Legends statistics and much more.",
+		docs: "https://developer.riotgames.com/",
+		official: true,
+		categories: ["games"],
+		auth: 1
+	},
+	{
+		id: "catfact.ninja",
+		name: "Cat facts",
+		description: "Random cat facts",
+		apiUrl: "https://catfact.ninja/fact",
+		docs: "https://catfact.ninja",
+		categories: ["animals"]
+	},
+	{
+		id: "cat-fact",
+		name: "Cat facts",
+		description: "Daily cat facts",
+		apiUrl: "https://cat-fact.herokuapp.com/facts/random",
+		docs: "https://alexwohlbruck.github.io/cat-facts/docs/",
+		categories: ["animals"]
+	},
+	{
+		id: "dog.ceo",
+		name: "Dog API",
+		description: "Dog breeds and images",
+		apiUrl: "https://dog.ceo/api/breeds/image/random",
+		docs: "https://dog.ceo/dog-api/documentation/",
+		categories: ["animals"]
 	}
 ];
