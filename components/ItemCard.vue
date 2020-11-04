@@ -16,7 +16,16 @@
 				title="Official API"
 			/>
 		</div>
-		<div class="text-center border-gray-400 border-t border-b my-3 py-3">
+		<div class="text-center mt-3">
+			<Badge
+				v-for="(cat, i) of details.categories"
+				:key="i"
+				class="mx-1 text-xs"
+			>
+				{{ cat }}
+			</Badge>
+		</div>
+		<div class="text-center border-gray-400 border-t border-b my-3 py-2">
 			<span>{{ details.description }}</span>
 		</div>
 		<div v-if="details.apiUrl">
