@@ -8,8 +8,8 @@
 		<div align="center">
 			<img
 				:src="getImage()"
-				alt="logo"
-				title="API logo"
+				:alt="`${details.name} logo`"
+				:title="`${details.name} logo`"
 				class="object-scale-down w-24 h-24 rounded-lg mb-2"
 			/>
 			<span class="text-xl font-semibold mx-auto my-auto">
