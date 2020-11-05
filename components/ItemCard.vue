@@ -7,10 +7,10 @@
 		</div>
 		<div align="center">
 			<img
-				src="https://via.placeholder.com/96"
+				:src="getImage()"
 				alt="logo"
 				title="API logo"
-				class="w-24 h-24 rounded-full mb-2"
+				class="object-scale-down w-24 h-24 rounded-lg mb-2"
 			/>
 			<span class="text-xl font-semibold mx-auto my-auto">
 				{{ details.name }}
@@ -86,6 +86,15 @@
 		methods: {
 			getBadgeColor(id) {
 				return getColor(id);
+			},
+			getImage() {
+				try {
+					if (!this.details.img)
+						return require("@/assets/images/logo/default.png");
+					else return require(`@/assets/images/logo/${this.details.img}`);
+				} catch (err) {
+					return require("@/assets/images/logo/default.png");
+				}
 			}
 		}
 	};
