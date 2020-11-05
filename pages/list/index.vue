@@ -10,9 +10,10 @@
 					class="m-2 focus:outline-none"
 				>
 					<Badge
-						:uppercase="false"
-						class="text-sm px-3"
-						:color="filters.category === cat ? 'bg-green-500' : 'bg-green-300'"
+						:uppercase="filters.category === cat"
+						class="text-sm text-gray-800"
+						:color="getBadgeColor(cat)"
+						:class="filters.category === cat ? 'px-4 py-1' : 'px-3'"
 					>
 						{{ cat }}
 					</Badge>
@@ -49,6 +50,7 @@
 
 <script>
 	import { apiList } from "@/assets/apiList";
+	import { getColor } from "@/assets/badge";
 
 	export default {
 		data() {
@@ -92,6 +94,9 @@
 				let cat = id;
 				if (id === this.filters.category) cat = null;
 				this.filters.category = cat;
+			},
+			getBadgeColor(id) {
+				return getColor(id);
 			}
 		}
 	};
