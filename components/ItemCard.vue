@@ -1,11 +1,16 @@
 <template>
-	<div class="bg-gray-200 border shadow hover:shadow-lg rounded-md p-4 w-84">
+	<div
+		class="bg-gray-200 relative border shadow hover:shadow-lg rounded-md p-4 w-84"
+	>
+		<div class="ribbon" v-if="details.https">
+			<span class="uppercase">https</span>
+		</div>
 		<div align="center">
 			<img
-				src="https://via.placeholder.com/96"
+				:src="getImage()"
 				alt="logo"
 				title="API logo"
-				class="w-24 h-24 rounded-full mb-2"
+				class="object-scale-down w-24 h-24 rounded-lg mb-2"
 			/>
 			<span class="text-xl font-semibold mx-auto my-auto">
 				{{ details.name }}
@@ -21,6 +26,7 @@
 				v-for="(cat, i) of details.categories"
 				:key="i"
 				class="mx-1 text-xs"
+				:color="getBadgeColor(cat)"
 			>
 				{{ cat }}
 			</Badge>
@@ -28,7 +34,7 @@
 		<div class="text-center border-gray-400 border-t border-b my-3 py-2">
 			<span>{{ details.description }}</span>
 		</div>
-		<div v-if="details.apiUrl">
+		<div v-if="details.apiUrl && !details.auth">
 			<span class="mdi mdi-link-variant mdi-18px mr-1" />
 			<span>Base API url: </span>
 			<a
@@ -59,6 +65,8 @@
 </template>
 
 <script>
+	import { getColor } from "@/assets/badge";
+
 	export default {
 		props: {
 			details: Object
@@ -74,6 +82,72 @@
 						return "None";
 				}
 			}
+		},
+		methods: {
+			getBadgeColor(id) {
+				return getColor(id);
+			},
+			getImage() {
+				try {
+					if (!this.details.img)
+						return require("@/assets/images/logo/default.png");
+					else return require(`@/assets/images/logo/${this.details.img}`);
+				} catch (err) {
+					return require("@/assets/images/logo/default.png");
+				}
+			}
 		}
 	};
 </script>
+
+<style scoped>
+	.ribbon {
+		position: absolute;
+		left: -5px;
+		top: -5px;
+		z-index: 1;
+		overflow: hidden;
+		width: 75px;
+		height: 75px;
+		text-align: right;
+	}
+	.ribbon span {
+		font-size: 10px;
+		color: #fff;
+		text-align: center;
+		font-weight: bold;
+		line-height: 20px;
+		transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		width: 100px;
+		display: block;
+		background: #0d7408;
+		background: linear-gradient(#1add0f 0%, #0d7408 100%);
+		box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+		position: absolute;
+		top: 19px;
+		left: -21px;
+	}
+	.ribbon span::before {
+		content: "";
+		position: absolute;
+		left: 0px;
+		top: 100%;
+		z-index: -1;
+		border-left: 3px solid #0d7408;
+		border-right: 3px solid transparent;
+		border-bottom: 3px solid transparent;
+		border-top: 3px solid #0d7408;
+	}
+	.ribbon span::after {
+		content: "";
+		position: absolute;
+		right: 0%;
+		top: 100%;
+		z-index: -1;
+		border-right: 3px solid #0d7408;
+		border-left: 3px solid transparent;
+		border-bottom: 3px solid transparent;
+		border-top: 3px solid #0d7408;
+	}
+</style>
