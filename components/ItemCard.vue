@@ -1,5 +1,10 @@
 <template>
-	<div class="bg-gray-200 border shadow hover:shadow-lg rounded-md p-4 w-84">
+	<div
+		class="bg-gray-200 relative border shadow hover:shadow-lg rounded-md p-4 w-84"
+	>
+		<div class="ribbon" v-if="details.https">
+			<span class="uppercase">https</span>
+		</div>
 		<div align="center">
 			<img
 				src="https://via.placeholder.com/96"
@@ -85,3 +90,55 @@
 		}
 	};
 </script>
+
+<style scoped>
+	.ribbon {
+		position: absolute;
+		left: -5px;
+		top: -5px;
+		z-index: 1;
+		overflow: hidden;
+		width: 75px;
+		height: 75px;
+		text-align: right;
+	}
+	.ribbon span {
+		font-size: 10px;
+		color: #fff;
+		text-align: center;
+		font-weight: bold;
+		line-height: 20px;
+		transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		width: 100px;
+		display: block;
+		background: #0d7408;
+		background: linear-gradient(#1add0f 0%, #0d7408 100%);
+		box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+		position: absolute;
+		top: 19px;
+		left: -21px;
+	}
+	.ribbon span::before {
+		content: "";
+		position: absolute;
+		left: 0px;
+		top: 100%;
+		z-index: -1;
+		border-left: 3px solid #0d7408;
+		border-right: 3px solid transparent;
+		border-bottom: 3px solid transparent;
+		border-top: 3px solid #0d7408;
+	}
+	.ribbon span::after {
+		content: "";
+		position: absolute;
+		right: 0%;
+		top: 100%;
+		z-index: -1;
+		border-right: 3px solid #0d7408;
+		border-left: 3px solid transparent;
+		border-bottom: 3px solid transparent;
+		border-top: 3px solid #0d7408;
+	}
+</style>
