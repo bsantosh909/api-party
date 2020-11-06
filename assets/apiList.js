@@ -177,5 +177,33 @@ export const apiList = [
 		docs: "https://api.chucknorris.io/",
 		https: true,
 		categories: ["entertainment"]
+	},
+	{
+		id: "isthisforthat",
+		name: "Is This for That",
+		description: "Make a decision! This?? or That??",
+		apiUrl: "https://itsthisforthat.com/api.php?json",
+		docs: "https://itsthisforthat.com/api.php",
+		https: true,
+		categories: ["entertainment"]
+	},
+	{
+		id: "jservice",
+		name: "jService",
+		description: "Collection of trivia questions with clues and categories.",
+		img: "jservice.png",
+		apiUrl: "https://jservice.io/api/random",
+		docs: "https://jservice.io/",
+		https: true,
+		categories: ["entertainment"]
+	},
+	{
+		id: "adviceslip",
+		name: "Advice slip",
+		description: "Generate advice for yourself or someone else.",
+		apiUrl: "https://api.adviceslip.com/advice",
+		docs: "https://api.adviceslip.com/",
+		https: true,
+		categories: ["entertainment"]
 	}
 ];
