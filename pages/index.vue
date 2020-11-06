@@ -1,8 +1,8 @@
 <template>
 	<div>
 		<div class="container mx-auto">
-			<div class="text-center">
-				<h1 class="text-4xl font-bold">API Party</h1>
+			<div align="center">
+				<img src="@/assets/images/logo.png" alt="API party logo" />
 				<span class="text-gray-600">The awesome API collection!</span>
 			</div>
 		</div>
