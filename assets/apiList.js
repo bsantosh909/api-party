@@ -139,5 +139,15 @@ export const apiList = [
 		docs: "https://dog.ceo/dog-api/documentation/",
 		https: true,
 		categories: ["animals"]
+	},
+	{
+		id: "pokedex.api",
+		name: "Pokédex API",
+		description: "Entire pokedex (pokemon) data easily accessible in one place.",
+		img: "pokedex-api.png",
+		apiUrl: "https://pokeapi.glitch.me/info",
+		docs: "https://pokedevs.gitbook.io/pokedex/",
+		https: true,
+		categories: ["games"]
 	}
 ];
