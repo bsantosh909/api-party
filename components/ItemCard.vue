@@ -20,6 +20,11 @@
 				v-if="details.official"
 				title="Official API"
 			/>
+			<span
+				class="mdi mdi-currency-usd-circle mdi-24px text-orange-400"
+				v-if="details.hasPaidPlan"
+				title="Includes Paid Plans"
+			/>
 		</div>
 		<div class="text-center mt-3">
 			<Badge

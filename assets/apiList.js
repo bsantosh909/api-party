@@ -205,5 +205,16 @@ export const apiList = [
 		docs: "https://api.adviceslip.com/",
 		https: true,
 		categories: ["entertainment"]
+	},
+	{
+		id: "funtranslation",
+		name: "Fun translations API",
+		description: "Translate your text into various funny styles (yoda, pirate, brailee etc).",
+		img: "funtranslations.png",
+		docs: "https://funtranslations.com/api/",
+		https: true,
+		categories: ["entertainment"],
+		auth: 1,
+		hasPaidPlan: true
 	}
 ];
