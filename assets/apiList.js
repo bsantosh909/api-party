@@ -149,5 +149,33 @@ export const apiList = [
 		docs: "https://pokedevs.gitbook.io/pokedex/",
 		https: true,
 		categories: ["games"]
+	},
+	{
+		id: "bored-api",
+		name: "Bored API",
+		description: "Let's find you something to do!",
+		apiUrl: "https://www.boredapi.com/api/activity",
+		docs: "https://www.boredapi.com/documentation",
+		https: true,
+		categories: ["entertainment"]
+	},
+	{
+		id: "rickandmorty",
+		name: "Rick and Morty API",
+		description: "Characters, images, episodes and locations of TV show Rick and Morty.",
+		apiUrl: "https://rickandmortyapi.com/api/",
+		docs: "https://rickandmortyapi.com/documentation",
+		https: true,
+		categories: ["entertainment"]
+	},
+	{
+		id: "chucknorris",
+		name: "Chucknorris.io",
+		description: "Hand curate Chuck Norris facts.",
+		img: "chucknorris.png",
+		apiUrl: "https://api.chucknorris.io/jokes/random",
+		docs: "https://api.chucknorris.io/",
+		https: true,
+		categories: ["entertainment"]
 	}
 ];
