@@ -49,8 +49,8 @@ export const apiList = [
 	},
 	{
 		id: "pokemon",
-		name: "Pokemon API",
-		description: "Official Pokemon API",
+		name: "Pokémon API",
+		description: "Official Pokémon API",
 		img: "pokemon.png",
 		apiUrl: "https://api.pokemon.com/us/api/pokedex/kalos",
 		https: true,
@@ -59,7 +59,7 @@ export const apiList = [
 	},
 	{
 		id: "pokeapi",
-		name: "PokeApi",
+		name: "PokéApi",
 		description: "All the Pokémon data you'll ever need in one place.",
 		img: "pokeapi.png",
 		apiUrl: "https://pokeapi.co/api/v2/",
@@ -143,7 +143,7 @@ export const apiList = [
 	{
 		id: "pokedex.api",
 		name: "Pokédex API",
-		description: "Entire pokedex (pokemon) data easily accessible in one place.",
+		description: "Entire pokédex (pokémon) data easily accessible in one place.",
 		img: "pokedex-api.png",
 		apiUrl: "https://pokeapi.glitch.me/info",
 		docs: "https://pokedevs.gitbook.io/pokedex/",

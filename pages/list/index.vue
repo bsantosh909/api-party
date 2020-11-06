@@ -71,8 +71,16 @@
 					.filter((api) => {
 						const query = this.filters.search.toLowerCase();
 						return (
-							api.name.toLowerCase().includes(query) ||
-							api.description.toLowerCase().includes(query)
+							api.name
+								.toLowerCase()
+								.normalize("NFD")
+								.replace(/[\u0300-\u036f]/g, "")
+								.includes(query) ||
+							api.description
+								.toLowerCase()
+								.normalize("NFD")
+								.replace(/[\u0300-\u036f]/g, "")
+								.includes(query)
 						);
 					})
 					.sort((a, b) => (a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1));
