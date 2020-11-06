@@ -10,15 +10,12 @@
 					class="m-2 focus:outline-none"
 				>
 					<Badge
-						:uppercase="filters.category === cat"
 						class="text-sm text-gray-800 bg-gray-400"
-						:class="[
-							filters.category === cat ? 'px-4 py-1' : 'px-3',
-							cat.toLowerCase()
-						]"
-					>
-						{{ cat }}
-					</Badge>
+						icon
+						:uppercase="filters.category === cat"
+						:active="filters.category === cat"
+						:category="cat"
+					/>
 				</button>
 			</div>
 		</div>

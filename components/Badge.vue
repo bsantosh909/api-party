@@ -1,9 +1,16 @@
 <template>
 	<span
-		class="inline-block rounded-full font-semibold select-none px-2"
-		:class="[uppercase ? 'uppercase' : 'capitalize']"
+		class="inline-block rounded-full font-semibold select-none px-2 py-1"
+		:class="[
+			uppercase ? 'uppercase' : 'capitalize',
+			category.toLowerCase(),
+			active ? 'border-gray-800 border-2 shadow-lg' : 'shadow'
+		]"
 	>
-		<slot></slot>
+		<slot>
+			<span class="mdi mr-1" :class="iconKey" v-if="icon && iconKey" />
+			<span>{{ category }}</span>
+		</slot>
 	</span>
 </template>
 
@@ -13,6 +20,31 @@
 			uppercase: {
 				type: Boolean,
 				default: true
+			},
+			category: String,
+			icon: {
+				type: Boolean,
+				default: false
+			},
+			active: {
+				type: Boolean,
+				default: false
+			}
+		},
+		computed: {
+			iconKey() {
+				switch (this.category) {
+					case "games":
+						return "mdi-controller-classic";
+					case "social":
+						return "mdi-account-group";
+					case "entertainment":
+						return "mdi-movie-filter";
+					case "animals":
+						return "mdi-dog-side";
+					default:
+						return false;
+				}
 			}
 		}
 	};
