@@ -4,7 +4,7 @@
 			<span class="font-semibold text-3xl">Categories</span>
 			<div class="pt-4">
 				<button
-					v-for="(cat, i) of categories"
+					v-for="(cat, i) of categories.sort()"
 					:key="i"
 					@click="setCategory(cat.toLowerCase())"
 					class="m-2 focus:outline-none"
