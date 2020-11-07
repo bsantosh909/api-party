@@ -261,5 +261,44 @@ export const apiList = [
 		https: true,
 		categories: ["social"],
 		auth: 2
+	},
+	{
+		id: "themoviedb",
+		name: "The Movie Database API",
+		description: "Millions of movies, TV shows and people to discover.",
+		img: "themoviedb.png",
+		docs: "https://developers.themoviedb.org/3/getting-started",
+		https: true,
+		categories: ["entertainment"],
+		auth: 1
+	},
+	{
+		id: "omdb",
+		name: "OMDb API",
+		description: "Obtain movie information and images from open movie database.",
+		docs: "https://www.omdbapi.com/",
+		https: true,
+		categories: ["entertainment"],
+		auth: 1
+	},
+	{
+		id: "tvbd",
+		name: "The TVDB API",
+		description: "Community driven TV and movie database.",
+		img: "tvdb.png",
+		docs: "https://api.thetvdb.com/swagger",
+		https: true,
+		categories: ["entertainment"],
+		auth: 1
+	},
+	{
+		id: "tvmaze",
+		name: "TV Maze",
+		description: "Find information and track for any show on any device.",
+		img: "tvmaze.png",
+		apiUrl: "https://api.tvmaze.com/schedule/full",
+		docs: "https://tvmaze.com/api",
+		https: true,
+		categories: ["entertainment"]
 	}
 ];
