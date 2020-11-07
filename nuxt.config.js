@@ -12,7 +12,7 @@ export default {
 		],
 		link: [
 			{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-			{ rel: 'stylesheet', href: '//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css' }
+			{ rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/@mdi/font@5.8.55/css/materialdesignicons.min.css' }
 		]
 	},
 
