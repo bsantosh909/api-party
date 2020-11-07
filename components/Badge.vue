@@ -48,6 +48,8 @@
 						return "mdi-television-play";
 					case "comics":
 						return "mdi-emoticon-lol";
+					case "weather":
+						return "mdi-weather-cloudy";
 					default:
 						return false;
 				}
@@ -77,5 +79,8 @@
 	}
 	.comics {
 		@apply bg-gradient-to-l from-indigo-300 via-pink-300 to-yellow-400;
+	}
+	.weather {
+		@apply bg-gradient-to-b from-gray-500 to-gray-100;
 	}
 </style>

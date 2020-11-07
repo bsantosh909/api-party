@@ -349,5 +349,59 @@ export const apiList = [
 		docs: "https://whatdoestrumpthink.com/api-docs/index.html",
 		https: true,
 		categories: ["entertainment", "comics"]
+	},
+	{
+		id: "openweather",
+		name: "Open Weather",
+		description: "Weather forecasts, nowcasts and history in fast and elegant way.",
+		img: "openweather.png",
+		docs: "https://openweathermap.org/api",
+		https: true,
+		categories: ["weather"],
+		auth: 1,
+		hasPaidPlan: true
+	},
+	{
+		id: "weatherstack",
+		name: "Weatherstack",
+		description: "Real-Time & Historical World Weather Data API.",
+		img: "weatherstack.png",
+		docs: "https://weatherstack.com/documentation",
+		https: true,
+		categories: ["weather"],
+		auth: 1,
+		hasPaidPlan: true
+	},
+	{
+		id: "weatherbit",
+		name: "Weatherbit",
+		description: "High performance weather API for all of the weather data needs.",
+		docs: "https://www.weatherbit.io/api",
+		https: true,
+		categories: ["weather"],
+		auth: 1,
+		hasPaidPlan: true
+	},
+	{
+		id: "accuweather",
+		name: "AccuWeather",
+		description: "Build the weather experience like never before.",
+		img: "accuweather.png",
+		docs: "https://developer.accuweather.com/apis",
+		https: true,
+		categories: ["weather"],
+		auth: 1,
+		hasPaidPlan: true
+	},
+	{
+		id: "aerisweather",
+		name: "Aeris Weather",
+		description: "API for usage from the basic to complex weather-influenced solutions.",
+		img: "aerisweather.png",
+		docs: "https://www.aerisweather.com/support/docs/api/",
+		https: true,
+		categories: ["weather"],
+		auth: 1,
+		hasPaidPlan: true
 	}
 ];
