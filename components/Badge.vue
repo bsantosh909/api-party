@@ -46,6 +46,8 @@
 						return "mdi-movie-open";
 					case "shows":
 						return "mdi-television-play";
+					case "comics":
+						return "mdi-emoticon-lol";
 					default:
 						return false;
 				}
@@ -72,5 +74,8 @@
 	}
 	.shows {
 		@apply bg-gradient-to-br from-yellow-300 to-purple-400;
+	}
+	.comics {
+		@apply bg-gradient-to-l from-indigo-300 via-pink-300 to-yellow-400;
 	}
 </style>

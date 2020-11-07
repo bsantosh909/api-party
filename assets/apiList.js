@@ -176,7 +176,7 @@ export const apiList = [
 		apiUrl: "https://api.chucknorris.io/jokes/random",
 		docs: "https://api.chucknorris.io/",
 		https: true,
-		categories: ["entertainment"]
+		categories: ["entertainment", "comics"]
 	},
 	{
 		id: "isthisforthat",
@@ -300,5 +300,54 @@ export const apiList = [
 		docs: "https://tvmaze.com/api",
 		https: true,
 		categories: ["entertainment", "shows"]
+	},
+	{
+		id: "icanhazdadjoke",
+		name: "Icanhazdadjoke",
+		description: "Largest selection of dad jokes.",
+		img: "icanhazdadjoke.png",
+		apiUrl: "https://icanhazdadjoke.com/",
+		docs: "https://icanhazdadjoke.com/api",
+		https: true,
+		categories: ["entertainment", "comics"]
+	},
+	{
+		id: "jokeapi",
+		name: "JokeAPI",
+		description: "Uniform and well formatted jokes.",
+		img: "jokeapi.png",
+		apiUrl: "https://sv443.net/jokeapi/v2/joke/any",
+		docs: "https://sv443.net/jokeapi/v2/",
+		https: true,
+		categories: ["entertainment", "comics"]
+	},
+	{
+		id: "tronalddump",
+		name: "Tronalddump.io",
+		description: "Api & web archive for the dumbest things Donald Trump has ever said.",
+		img: "tronalddump.png",
+		apiUrl: "https://api.tronalddump.io/random/quote",
+		docs: "https://docs.tronalddump.io/",
+		https: true,
+		categories: ["entertainment", "comics"]
+	},
+	{
+		id: "icndb",
+		name: "ICNDb",
+		description: "The internet Chuck Norris database.",
+		apiUrl: "https://api.icndb.com/jokes/random",
+		docs: "http://www.icndb.com/api/",
+		https: true,
+		categories: ["entertainment", "comics"]
+	},
+	{
+		id: "trump.think",
+		name: "What does Trump think",
+		description: "Get random or personalized Trump quote.",
+		img: "trumpthink.png",
+		apiUrl: "https://api.whatdoestrumpthink.com/api/v1/quotes/random",
+		docs: "https://whatdoestrumpthink.com/api-docs/index.html",
+		https: true,
+		categories: ["entertainment", "comics"]
 	}
 ];
