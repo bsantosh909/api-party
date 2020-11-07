@@ -216,5 +216,50 @@ export const apiList = [
 		categories: ["entertainment"],
 		auth: 1,
 		hasPaidPlan: true
+	},
+	{
+		id: "twitter",
+		name: "Twitter API",
+		description: "Access Twitter data and engage with conversations!",
+		img: "twitter.png",
+		docs: "https://developer.twitter.com/en/docs/twitter-api",
+		official: true,
+		https: true,
+		categories: ["social"],
+		auth: 2,
+		hasPaidPlan: true
+	},
+	{
+		id: "reddit",
+		name: "Reddit API",
+		description: "Perform all your actions on Reddit through the API!",
+		img: "reddit.png",
+		docs: "https://www.reddit.com/dev/api",
+		official: true,
+		https: true,
+		categories: ["social"],
+		auth: 2
+	},
+	{
+		id: "instagram",
+		name: "Instagram API",
+		description: "Access profile information, photos, publish media and more.",
+		img: "instagram.png",
+		docs: "https://developers.facebook.com/docs/instagram",
+		official: true,
+		https: true,
+		categories: ["social"],
+		auth: 2
+	},
+	{
+		id: "facebook",
+		name: "Facebook for developers",
+		description: "Live video API, graph API, marketing API, pages API, video API",
+		img: "facebook.png",
+		docs: "https://developers.facebook.com/docs/",
+		official: true,
+		https: true,
+		categories: ["social"],
+		auth: 2
 	}
 ];
