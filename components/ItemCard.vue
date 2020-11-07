@@ -30,8 +30,9 @@
 			<Badge
 				v-for="(cat, i) of details.categories"
 				:key="i"
-				class="mx-1 text-xs bg-gray-400"
 				:category="cat"
+				class="m-1 text-xs bg-gray-400 shadow-md"
+				icon
 			/>
 		</div>
 		<div class="text-center border-gray-400 border-t border-b my-3 py-2">

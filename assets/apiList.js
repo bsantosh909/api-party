@@ -166,7 +166,7 @@ export const apiList = [
 		apiUrl: "https://rickandmortyapi.com/api/",
 		docs: "https://rickandmortyapi.com/documentation",
 		https: true,
-		categories: ["entertainment"]
+		categories: ["entertainment", "shows"]
 	},
 	{
 		id: "chucknorris",
@@ -269,7 +269,7 @@ export const apiList = [
 		img: "themoviedb.png",
 		docs: "https://developers.themoviedb.org/3/getting-started",
 		https: true,
-		categories: ["entertainment"],
+		categories: ["entertainment", "movies", "shows"],
 		auth: 1
 	},
 	{
@@ -278,7 +278,7 @@ export const apiList = [
 		description: "Obtain movie information and images from open movie database.",
 		docs: "https://www.omdbapi.com/",
 		https: true,
-		categories: ["entertainment"],
+		categories: ["entertainment", "movies"],
 		auth: 1
 	},
 	{
@@ -288,7 +288,7 @@ export const apiList = [
 		img: "tvdb.png",
 		docs: "https://api.thetvdb.com/swagger",
 		https: true,
-		categories: ["entertainment"],
+		categories: ["entertainment", "movies", "shows"],
 		auth: 1
 	},
 	{
@@ -299,6 +299,6 @@ export const apiList = [
 		apiUrl: "https://api.tvmaze.com/schedule/full",
 		docs: "https://tvmaze.com/api",
 		https: true,
-		categories: ["entertainment"]
+		categories: ["entertainment", "shows"]
 	}
 ];

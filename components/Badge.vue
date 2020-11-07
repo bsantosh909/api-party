@@ -19,7 +19,7 @@
 		props: {
 			uppercase: {
 				type: Boolean,
-				default: true
+				default: false
 			},
 			category: String,
 			icon: {
@@ -39,9 +39,13 @@
 					case "social":
 						return "mdi-account-group";
 					case "entertainment":
-						return "mdi-movie-filter";
+						return "mdi-sparkles";
 					case "animals":
-						return "mdi-dog-side";
+						return "mdi-paw";
+					case "movies":
+						return "mdi-movie-open";
+					case "shows":
+						return "mdi-television-play";
 					default:
 						return false;
 				}
@@ -62,5 +66,11 @@
 	}
 	.animals {
 		@apply bg-gradient-to-bl from-purple-300 to-pink-400;
+	}
+	.movies {
+		@apply bg-gradient-to-tr from-red-300 to-blue-400;
+	}
+	.shows {
+		@apply bg-gradient-to-br from-yellow-300 to-purple-400;
 	}
 </style>
