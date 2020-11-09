@@ -403,5 +403,61 @@ export const apiList = [
 		categories: ["weather"],
 		auth: 1,
 		hasPaidPlan: true
+	},
+	{
+		id: "troposphere",
+		name: "Troposphere",
+		description: "Easy, fast and free weather API.",
+		img: "troposphere.png",
+		docs: "https://www.troposphere.io/developer",
+		https: true,
+		categories: ["weather"],
+		auth: 1,
+		hasPaidPlan: true
+	},
+	{
+		id: "catapi",
+		name: "catAPI",
+		description: "Random pictures of cats.",
+		apiUrl: "https://thatcopy.pw/catapi/rest/",
+		docs: "https://github.com/ThatCopy/catAPI/wiki/Usage",
+		https: true,
+		categories: ["animals"]
+	},
+	{
+		id: "thecatapi",
+		name: "TheCatApi",
+		description: "Cats as a service, everyday is Caturday.",
+		img: "thecatapi.png",
+		apiUrl: "https://api.thecatapi.com/v1/images/search",
+		docs: "https://docs.thecatapi.com/",
+		https: true,
+		categories: ["animals"]
+	},
+	{
+		id: "random.cat",
+		name: "Random Cat",
+		description: "Random pictures of cats",
+		img: "random-cat.png",
+		apiUrl: "https://aws.random.cat/meow",
+		https: true,
+		categories: ["animals"]
+	},
+	{
+		id: "random.dog",
+		name: "Random Dog",
+		description: "Random pictures of dogs",
+		apiUrl: "https://random.dog/woof.json",
+		https: true,
+		categories: ["animals"]
+	},
+	{
+		id: "random.fox",
+		name: "Random Fox",
+		description: "Random pictures of fox",
+		img: "randomfox.png",
+		apiUrl: "https://randomfox.ca/floof/",
+		https: true,
+		categories: ["animals"]
 	}
 ];
