@@ -38,29 +38,29 @@
 		<div class="text-center border-gray-400 border-t border-b my-3 py-2">
 			<span>{{ details.description }}</span>
 		</div>
-		<div v-if="details.apiUrl && !details.auth">
+		<div v-if="details.apiUrl && !details.auth" class="my-1">
 			<span class="mdi mdi-link-variant mdi-18px mr-1" />
-			<span>Base API url: </span>
 			<a
 				:href="details.apiUrl"
-				class="text-blue-500 visited:text-purple-600"
+				rel="noopener"
+				class="text-blue-700 visited:text-purple-600"
 				target="_blank"
 			>
-				Click Here
+				Base API url
 			</a>
 		</div>
-		<div v-if="details.docs">
+		<div v-if="details.docs" class="my-1">
 			<span class="mdi mdi-book-open-variant mdi-18px mr-1" />
-			<span>Documentation: </span>
 			<a
 				:href="details.docs"
-				class="text-blue-500 visited:text-purple-600"
+				rel="noopener"
+				class="text-blue-700 visited:text-purple-600"
 				target="_blank"
 			>
-				Click Here
+				Documentation
 			</a>
 		</div>
-		<div v-if="details.auth">
+		<div v-if="details.auth" class="my-1">
 			<span class="mdi mdi-key mdi-18px mr-1" />
 			<span>Authentication: </span>
 			<span class="font-semibold">{{ apiAuth }}</span>

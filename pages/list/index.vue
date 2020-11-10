@@ -21,7 +21,7 @@
 		</div>
 		<div class="mb-16 mx-4">
 			<label
-				class="block text-gray-600 font-bold mb-2 text-center"
+				class="block text-gray-700 font-bold mb-2 text-center"
 				for="search-area"
 			>
 				<span class="mdi mdi-magnify mdi-18px mr-1" />

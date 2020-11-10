@@ -4,6 +4,7 @@
 			<span>Copyright © 2020 </span>
 			<a
 				href="https://santoshb.com.np?ref=apiparty"
+				rel="noopener"
 				target="_blank"
 				class="text-yellow-200"
 			>

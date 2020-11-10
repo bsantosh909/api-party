@@ -8,13 +8,14 @@
 			<span>of</span>
 			<span>{{ items }} Items</span>
 		</div>
-		<div class="flex flex-wrap justify-between mt-3">
+		<div class="flex flex-wrap justify-between mt-3 mx-2">
 			<div>
 				<button
 					class="border w-10 h-10 rounded-lg focus:outline-none focus:shadow-md"
 					:class="active === 1 ? 'bg-gray-300 cursor-not-allowed' : ''"
 					:disabled="active === 1"
 					@click="updateActivePage(active - 1)"
+					aria-label="Previous page"
 				>
 					<span
 						class="mdi mdi-chevron-left mdi-18px"
@@ -28,6 +29,7 @@
 					class="border w-10 h-10 mx-1 rounded-full focus:outline-none"
 					:class="1 === active ? 'bg-blue-200 shadow-md' : ''"
 					@click="updateActivePage(1)"
+					aria-label="Page 1"
 				>
 					<span class="font-semibold">1</span>
 				</button>
@@ -35,12 +37,13 @@
 
 				<button
 					v-for="page of pagesInRange"
-					:key="page.number"
+					:key="page"
 					class="border w-10 h-10 mx-1 rounded-full focus:outline-none"
-					:class="page.number === active ? 'bg-blue-200 shadow-md' : ''"
-					@click="updateActivePage(page.number)"
+					:class="page === active ? 'bg-blue-200 shadow-md' : ''"
+					@click="updateActivePage(page)"
+					:aria-label="`Page ${page}`"
 				>
-					<span class="font-semibold">{{ page.number }}</span>
+					<span class="font-semibold">{{ page }}</span>
 				</button>
 
 				<span v-if="hasLastEllipsis">&hellip;</span>
@@ -49,6 +52,7 @@
 					class="border w-10 h-10 mx-1 rounded-full focus:outline-none"
 					:class="pageCount === active ? 'bg-blue-200 shadow-md' : ''"
 					@click="updateActivePage(pageCount)"
+					:aria-label="`Page ${pageCount}`"
 				>
 					<span class="font-semibold">{{ pageCount }}</span>
 				</button>
@@ -59,6 +63,7 @@
 					:class="active === pageCount ? 'bg-gray-300 cursor-not-allowed' : ''"
 					:disabled="active === pageCount"
 					@click="updateActivePage(active + 1)"
+					aria-label="Next page"
 				>
 					<span
 						class="mdi mdi-chevron-right mdi-18px"
@@ -105,7 +110,7 @@
 				if (this.pageCount - right === 2) right++;
 
 				const pages = [];
-				for (let i = left; i <= right; i++) pages.push(this.getPage(i));
+				for (let i = left; i <= right; i++) pages.push(i);
 				return pages;
 			},
 			hasFirst() {
@@ -125,11 +130,6 @@
 			updateActivePage(count) {
 				this.active = count;
 				this.$emit("change", this.active);
-			},
-			getPage(num) {
-				return {
-					number: num
-				};
 			}
 		}
 	};
