@@ -35,15 +35,36 @@
 				v-model="filters.search"
 			/>
 		</div>
-		<div class="flex flex-wrap justify-center">
-			<ItemCard
-				v-for="api in list"
-				:key="api.id"
-				:details="api"
-				class="mx-6 my-4"
+		<div class="border-t pt-10">
+			<Pagination
+				:items="list.length"
+				:perPage="pagination.perPage"
+				:active="pagination.active"
+				@change="changeActivePage"
+				showCount
+				v-if="Math.ceil(list.length / pagination.perPage) > 1"
+				class="mb-10"
 			/>
-			<div v-if="!list.length">No API available matching the filters</div>
+
+			<div v-if="list.length" class="flex flex-wrap justify-center">
+				<ItemCard
+					v-for="api in paginatedList"
+					:key="api.id"
+					:details="api"
+					class="mx-6 my-4"
+				/>
+			</div>
+			<div v-else>No API available matching the filters</div>
 		</div>
+
+		<Pagination
+			:items="list.length"
+			:perPage="pagination.perPage"
+			:active="pagination.active"
+			@change="changeActivePage"
+			v-if="Math.ceil(list.length / pagination.perPage) > 1"
+			class="mt-10"
+		/>
 	</div>
 </template>
 
@@ -57,6 +78,10 @@
 				filters: {
 					search: "",
 					category: null
+				},
+				pagination: {
+					perPage: 30,
+					active: 1
 				}
 			};
 		},
@@ -85,6 +110,12 @@
 					})
 					.sort((a, b) => (a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1));
 			},
+			paginatedList() {
+				return this.list.slice(
+					this.pagination.perPage * (this.pagination.active - 1),
+					this.pagination.perPage * this.pagination.active
+				);
+			},
 			categories() {
 				const list = [];
 				this.apiList
@@ -100,6 +131,11 @@
 				let cat = id;
 				if (id === this.filters.category) cat = null;
 				this.filters.category = cat;
+				// Resetting active page number to be 1
+				this.pagination.active = 1;
+			},
+			changeActivePage(page) {
+				this.pagination.active = page;
 			}
 		}
 	};
