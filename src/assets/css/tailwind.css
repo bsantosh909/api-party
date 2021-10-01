@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-800;
+}
+
+.dark body {
+  @apply bg-gray-800 text-gray-200;
+}
+
+@layer utilities {
+  .text-with-shadow {
+    text-shadow: none;
+  }
+
+  @variants dark {
+    .text-with-shadow {
+      text-shadow: 1px 1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000,
+        -1px -1px 1px #000, 0 1px 1px #000;
+    }
+  }
+}
