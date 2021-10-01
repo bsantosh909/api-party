@@ -15,7 +15,7 @@
     "@tailwindcss/typography": "^0.4.1",
     "core-js": "^3.15.2",
     "nuxt": "^2.15.7",
-    "tailwindcss": "^2.2.4"
+    "tailwindcss": "^2.2.16"
   },
   "devDependencies": {
     "@nuxt/image": "^0.5.0",
