@@ -4,9 +4,7 @@ module.exports = {
   darkMode: 'class',
   mode: 'jit',
   theme: {
-    colors
+    colors,
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-  ]
+  plugins: [require('@tailwindcss/typography')],
 }

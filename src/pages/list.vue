@@ -43,18 +43,17 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import Vue from 'vue'
-import { IContentDocument } from '@nuxt/content/types/content'
 
 export default Vue.extend({
   async asyncData({ $content }) {
-    const data = (await $content('apis', { deep: true, watch: false })
+    const data = await $content('apis', { deep: true, watch: false })
       .only('categories')
-      .fetch()) as IContentDocument[]
+      .fetch()
 
-    const group: string[][] = data.map((d) => d.categories || [])
-    const list: string[] = []
+    const group = data.map((d) => d.categories || [])
+    const list = []
 
     for (const items of group) {
       for (const item of items) {
@@ -70,7 +69,7 @@ export default Vue.extend({
     }
   },
   methods: {
-    isActive(category: string) {
+    isActive(category) {
       const paramCat = this.$route.params.category
       return paramCat ? paramCat.toLowerCase() === category : false
     },

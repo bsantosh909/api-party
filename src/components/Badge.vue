@@ -20,53 +20,8 @@
   >
     <div class="flex">
       <!-- Icons for categories -->
-      <IconCAll v-if="category === 'all'" class="badge" />
-      <IconCAnimals
-        v-if="category === 'animals'"
-        :class="small ? 'badge-small' : 'badge'"
-      />
-      <IconCAnime
-        v-if="category === 'anime'"
-        :class="small ? 'badge-small' : 'badge'"
-      />
-      <IconCComics
-        v-if="category === 'comics'"
-        :class="small ? 'badge-small' : 'badge'"
-      />
-      <IconCCryptocurrency
-        v-if="category === 'cryptocurrency'"
-        :class="small ? 'badge-small' : 'badge'"
-      />
-      <IconCEntertainment
-        v-if="category === 'entertainment'"
-        :class="small ? 'badge-small' : 'badge'"
-      />
-      <IconCGames
-        v-if="category === 'games'"
-        :class="small ? 'badge-small' : 'badge'"
-      />
-      <IconCGeocoding
-        v-if="category === 'geocoding'"
-        :class="small ? 'badge-small' : 'badge'"
-      />
-      <IconCHealth
-        v-if="category === 'health'"
-        :class="small ? 'badge-small' : 'badge'"
-      />
-      <IconCMovies
-        v-if="category === 'movies'"
-        :class="small ? 'badge-small' : 'badge'"
-      />
-      <IconCMusic
-        v-if="category === 'music'"
-        :class="small ? 'badge-small' : 'badge'"
-      />
-      <IconCSocial
-        v-if="category === 'social'"
-        :class="small ? 'badge-small' : 'badge'"
-      />
-      <IconCSports
-        v-if="category === 'sports'"
+      <img
+        :src="`/category-icon/${category}.svg`"
         :class="small ? 'badge-small' : 'badge'"
       />
       <!-- Icons section ends here -->

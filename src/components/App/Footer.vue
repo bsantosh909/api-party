@@ -16,8 +16,9 @@
       <a
         href="https://santoshb.com.np?ref=apiParty"
         class="text-red-800 dark:text-red-400"
-        >Santosh Bhandari</a
       >
+        Santosh Bhandari
+      </a>
     </div>
     <div
       class="

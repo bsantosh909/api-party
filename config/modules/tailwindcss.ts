@@ -1,4 +1,4 @@
 export default {
   viewer: false,
-  configPath: '~~/tailwind.config.js'
+  configPath: '~~/tailwind.config.js',
 }
