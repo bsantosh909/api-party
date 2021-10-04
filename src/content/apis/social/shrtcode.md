@@ -7,5 +7,5 @@ features:
   https: true
   official: true
 url: https://shrtco.de/docs
-logo: twitter.png
+logo: shrtcode.png
 ---
