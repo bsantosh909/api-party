@@ -21,8 +21,10 @@
     <div class="flex">
       <!-- Icons for categories -->
       <img
-        :src="`/category-icon/${category}.svg`"
+        :src="`/category-icon/${category.toLowerCase()}.svg`"
         :class="small ? 'badge-small' : 'badge'"
+        class="drop-shadow category-image"
+        onerror="this.onerror=null;this.src='/category-icon/all.svg'"
       />
       <!-- Icons section ends here -->
       <span class="my-auto" :class="small ? 'text-sm' : 'text-base'">
@@ -83,6 +85,9 @@ export default Vue.extend({
 }
 .health {
   @apply bg-gradient-to-br from-emerald-300 to-rose-300 dark:from-emerald-700 dark:to-rose-700;
+}
+.images {
+  @apply bg-gradient-to-br from-gray-300 to-emerald-300 dark:from-gray-700 dark:to-emerald-700;
 }
 .movies {
   @apply bg-gradient-to-bl from-sky-300 to-yellow-300 dark:from-sky-700 dark:to-yellow-700;
