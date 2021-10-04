@@ -5,7 +5,7 @@ categories:
   - miscs
 features:
   https: true
-  official: true
+  official: false
 url: https://shrtco.de/docs
 logo: shrtcode.png
 ---
