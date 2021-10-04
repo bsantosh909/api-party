@@ -2,7 +2,7 @@
 name: Shrtcode API
 description: Free API to shorten Links
 categories:
-  - social
+  - miscs
 features:
   https: true
   official: true
