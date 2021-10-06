@@ -6,5 +6,5 @@ categories:
   - entertainment
 features:
   https: true
-url: https://github.com/sameerkumar18/geek-joke-api 
+url: https://github.com/sameerkumar18/geek-joke-api
 ---
