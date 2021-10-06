@@ -7,5 +7,5 @@ categories:
 features:
   https: true
 url: https://jokeapi.dev/
-logo: 
+logo:
 ---
