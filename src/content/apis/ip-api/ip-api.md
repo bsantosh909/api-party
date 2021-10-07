@@ -2,7 +2,7 @@
 name: Ip API
 description: Using api, obtain information about a specific user based on their IP address.
 categories:
-  - networking
+  - geocoding
 features:
   official: false
   https: true
