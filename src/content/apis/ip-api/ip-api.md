@@ -5,7 +5,7 @@ categories:
   - geocoding
 features:
   official: false
-  https: true
+  https: false
 url: https://ip-api.com/
 logo: ip.png
 ---
