@@ -4,7 +4,7 @@ const description =
   'Easily find the perfect API for you and your project. Navigate through hundreds of categorized lists to spice up your project!'
 
 const headConfig: NuxtOptionsHead = {
-  titleTemplate: (chunk) =>
+  titleTemplate: (chunk: string) =>
     chunk ? `${chunk} - API Party` : 'API Party | Awesome collection of APIs',
   // Meta tags for SEO
   meta: [
