@@ -6,4 +6,5 @@ categories:
 features:
   https: true
 url: https://github.com/open-meteo/open-meteo
+logo:
 ---

@@ -25,17 +25,10 @@
           class="my-auto drop-shadow-lg"
         />
       </div>
-      <!-- <div class="w-20 h-20 mx-auto bg-black dark:bg-white">
-        Image goes here
-      </div> -->
       <div class="my-2 md:my-5">
         <p class="font-semibold text-xl my-auto inline dark:text-with-shadow">
           {{ name }}
         </p>
-        <IconVerified
-          v-if="features.official"
-          class="w-5 h-5 text-yellow-500 mb-[0.37rem] ml-1 inline"
-        />
       </div>
       <div class="flex flex-wrap justify-center">
         <Badge

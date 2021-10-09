@@ -6,4 +6,5 @@ categories:
 features:
   https: true
 url: https://userguide.rescuegroups.org/display/APIDG/
+logo:
 ---

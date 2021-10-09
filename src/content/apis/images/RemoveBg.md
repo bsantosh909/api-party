@@ -4,7 +4,6 @@ description: Official API for removing picture backgrounds with many other featu
 categories:
   - images
 features:
-  official: false
   https: true
 url: https://www.remove.bg/api
 logo: rmbg.svg

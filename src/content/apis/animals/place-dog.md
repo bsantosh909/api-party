@@ -6,4 +6,5 @@ categories:
 features:
   https: true
 url: https://place.dog/
+logo:
 ---

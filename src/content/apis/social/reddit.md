@@ -5,7 +5,6 @@ categories:
   - social
 features:
   https: true
-  official: true
 url: https://www.reddit.com/dev/api
 logo: reddit.png
 ---

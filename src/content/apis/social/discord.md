@@ -4,7 +4,6 @@ description: Official API to create powerful robots to provide truly better expe
 categories:
   - social
 features:
-  official: true
   https: true
 url: https://discord.com/developers/docs/intro
 logo: discord.png

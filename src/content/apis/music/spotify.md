@@ -5,7 +5,6 @@ categories:
   - music
 features:
   https: true
-  official: true
 url: https://developer.spotify.com/documentation/web-api/
 logo: spotify.svg
 ---

@@ -6,4 +6,5 @@ categories:
 features:
   https: true
 url: https://fortnitetracker.com/site-api
+logo:
 ---

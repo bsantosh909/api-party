@@ -6,7 +6,6 @@ categories:
   - entertainment
 features:
   https: true
-  official: true
 url: https://api.pokemon.com/us/api/pokedex/kalos
 logo: pokemon.png
 ---

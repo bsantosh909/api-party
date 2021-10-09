@@ -4,7 +4,6 @@ description: Fully featured Github API to get repositories, code, user info and 
 categories:
   - development
 features:
-  official: true
   https: true
 url: https://docs.github.com/en/rest
 logo: github.png

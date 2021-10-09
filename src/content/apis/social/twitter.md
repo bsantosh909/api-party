@@ -5,7 +5,6 @@ categories:
   - social
 features:
   https: true
-  official: true
 url: https://developer.twitter.com/en/docs/twitter-api
 logo: twitter.png
 ---

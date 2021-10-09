@@ -6,4 +6,5 @@ categories:
 features:
   https: true
 url: https://cataas.com/
+logo:
 ---

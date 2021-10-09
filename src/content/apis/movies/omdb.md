@@ -6,4 +6,5 @@ categories:
 features:
   https: false
 url: https://www.omdbapi.com/
+logo:
 ---

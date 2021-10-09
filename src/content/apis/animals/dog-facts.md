@@ -6,4 +6,5 @@ categories:
 features:
   https: true
 url: https://dukengn.github.io/Dog-facts-API/
+logo:
 ---

@@ -5,7 +5,6 @@ categories:
   - games
 features:
   https: true
-  official: true
 url: https://developer.pubg.com/
 logo: pubg.png
 ---

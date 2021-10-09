@@ -6,4 +6,5 @@ categories:
 features:
   https: true
 url: http://ipapi.com/
+logo:
 ---

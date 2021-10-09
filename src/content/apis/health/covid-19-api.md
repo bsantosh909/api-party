@@ -6,4 +6,5 @@ categories:
 features:
   https: true
 url: https://github.com/M-Media-Group/Covid-19-API
+logo:
 ---

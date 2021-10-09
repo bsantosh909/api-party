@@ -5,7 +5,6 @@ categories:
   - social
 features:
   https: true
-  official: true
 url: https://developers.facebook.com/docs/whatsapp/
 logo: whatsapp.png
 ---

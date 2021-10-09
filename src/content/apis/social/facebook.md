@@ -4,7 +4,6 @@ description: Official API for Facebook Login, Share on FB, Social Plugins, Analy
 categories:
   - social
 features:
-  official: true
   https: true
 url: https://developers.facebook.com
 logo: facebook.png

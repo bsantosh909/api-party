@@ -7,4 +7,5 @@ categories:
 features:
   https: true
 url: https://github.com/gautamkrishnar/Be-Like-Bill
+logo:
 ---
