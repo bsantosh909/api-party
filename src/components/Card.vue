@@ -64,6 +64,7 @@
         <a
           :href="url"
           target="_blank"
+          rel="noopener noreferrer"
           class="bg-emerald-300 dark:bg-emerald-800 px-4 py-1 mx-1 rounded-md"
         >
           <p class="inline">Visit API</p>
