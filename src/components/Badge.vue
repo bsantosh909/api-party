@@ -23,7 +23,7 @@
       <img
         :src="`/category-icon/${category.toLowerCase()}.svg`"
         :class="small ? 'badge-small' : 'badge'"
-        class="drop-shadow category-image"
+        class="drop-shadow category-image object-contain"
         onerror="this.onerror=null;this.src='/category-icon/all.svg'"
       />
       <!-- Icons section ends here -->
@@ -74,6 +74,9 @@ export default Vue.extend({
 .cryptocurrency {
   @apply bg-gradient-to-r from-yellow-300 to-orange-300 dark:from-yellow-700 dark:to-orange-700;
 }
+.development {
+  @apply bg-gradient-to-tl from-gray-300 to-yellow-300 dark:from-gray-600 dark:to-yellow-600;
+}
 .entertainment {
   @apply bg-gradient-to-br from-teal-200 via-purple-300 to-rose-300 dark:from-teal-700 dark:via-purple-700 dark:to-rose-700;
 }
@@ -89,6 +92,9 @@ export default Vue.extend({
 .images {
   @apply bg-gradient-to-br from-gray-300 to-emerald-300 dark:from-gray-700 dark:to-emerald-700;
 }
+.miscs {
+  @apply bg-gradient-to-tl from-purple-300 to-emerald-300 dark:from-purple-600 dark:to-emerald-600;
+}
 .movies {
   @apply bg-gradient-to-bl from-sky-300 to-yellow-300 dark:from-sky-700 dark:to-yellow-700;
 }
@@ -100,5 +106,8 @@ export default Vue.extend({
 }
 .sports {
   @apply bg-gradient-to-bl from-blue-200 to-purple-300 dark:from-blue-600 dark:to-purple-700;
+}
+.weather {
+  @apply bg-gradient-to-tr from-gray-200 to-sky-200 dark:from-gray-600 dark:to-sky-600;
 }
 </style>
