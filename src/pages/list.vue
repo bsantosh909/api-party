@@ -8,7 +8,7 @@
         <nuxt-link
           v-for="(cat, i) of categories"
           :key="i"
-          :to="`/list/${cat}/`"
+          :to="`/list/${cat.replace(/ /g, '-')}/`"
           class="m-1"
         >
           <Badge :category="cat" :active="isActive(cat)" />
@@ -57,7 +57,8 @@ export default Vue.extend({
 
     for (const items of group) {
       for (const item of items) {
-        if (!list.includes(item.toLowerCase())) list.push(item.toLowerCase())
+        const itemName = item.toLowerCase()
+        if (!list.includes(itemName)) list.push(itemName)
       }
     }
 

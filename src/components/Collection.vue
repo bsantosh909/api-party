@@ -76,7 +76,11 @@ export default Vue.extend({
         .sortBy('features.https', 'desc')
         .sortBy('name')
       if (this.category !== 'all')
-        query.where({ categories: { $contains: this.category } })
+        query.where({
+          categories: {
+            $contains: this.category.replace(/-/g, ' '),
+          },
+        })
       if (skipPrevious && this.skip > 0) query.skip(this.skip)
       if (this.query) query.search(this.query)
 
