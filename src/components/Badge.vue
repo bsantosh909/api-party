@@ -110,6 +110,9 @@ export default Vue.extend({
 .sports {
   @apply bg-gradient-to-bl from-blue-200 to-purple-300 dark:from-blue-600 dark:to-purple-700;
 }
+.test-data {
+  @apply bg-gradient-to-br from-sky-300 via-emerald-300 to-pink-300 dark:from-sky-700 dark:via-emerald-700 dark:to-pink-700;
+}
 .weather {
   @apply bg-gradient-to-tr from-gray-200 to-sky-200 dark:from-gray-600 dark:to-sky-600;
 }
