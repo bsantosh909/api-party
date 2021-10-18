@@ -11,7 +11,7 @@
       border
     "
     :class="[
-      category.toLowerCase(),
+      category.toLowerCase().replace(/ /g, '-'),
       small ? 'px-2 py-1' : 'px-3 py-1',
       active
         ? 'border-gray-800 dark:border-gray-200 shadow-lg'
@@ -21,7 +21,7 @@
     <div class="flex">
       <!-- Icons for categories -->
       <img
-        :src="`/category-icon/${category.toLowerCase()}.svg`"
+        :src="`/category-icon/${category.toLowerCase().replace(/ /g, '-')}.svg`"
         :class="small ? 'badge-small' : 'badge'"
         class="drop-shadow category-image object-contain"
         onerror="this.onerror=null;this.src='/category-icon/all.svg'"
