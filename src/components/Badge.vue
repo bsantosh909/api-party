@@ -101,6 +101,9 @@ export default Vue.extend({
 .music {
   @apply bg-gradient-to-tl from-green-300 to-blue-300 dark:from-green-700 dark:to-blue-700;
 }
+.news {
+  @apply bg-gradient-to-br from-pink-300 to-cyan-200 dark:from-pink-700 dark:to-cyan-600;
+}
 .social {
   @apply bg-gradient-to-r from-yellow-200 to-orange-200 dark:from-yellow-600 dark:to-orange-600;
 }
