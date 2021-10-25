@@ -5,7 +5,6 @@ categories:
   - music
 features:
   https: true
-	official: true
 url: https://developers.google.com/youtube/v3
 logo: youtube.png
 ---
