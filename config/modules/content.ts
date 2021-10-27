@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/named
 import { IContentOptions } from '@nuxt/content/types/index'
 
 const contentConfig: IContentOptions = {

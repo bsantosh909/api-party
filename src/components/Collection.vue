@@ -28,7 +28,6 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import { IContentDocument } from '@nuxt/content/types/content'
 
 export default Vue.extend({
   props: {
@@ -46,7 +45,7 @@ export default Vue.extend({
     return {
       skip: 0,
       limit: 15,
-      items: [] as IContentDocument[],
+      items: [] as any[],
       hasMore: false,
     }
   },
@@ -84,7 +83,7 @@ export default Vue.extend({
       if (skipPrevious && this.skip > 0) query.skip(this.skip)
       if (this.query) query.search(this.query)
 
-      const items = (await query.fetch()) as IContentDocument[]
+      const items = (await query.fetch()) as any[]
       this.skip += items.length
 
       return items
