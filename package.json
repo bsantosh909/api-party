@@ -26,5 +26,8 @@
     "@nuxtjs/tailwindcss": "^5.3.3",
     "nuxt": "3.0.0-rc.10",
     "prettier": "2.7.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
