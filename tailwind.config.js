@@ -1,10 +1,10 @@
-const colors = require('tailwindcss/colors')
-
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class',
-  mode: 'jit',
+  content: [],
   theme: {
-    colors,
+    extend: {},
   },
-  plugins: [require('@tailwindcss/typography')],
-}
+  plugins: [],
+  //
+  darkMode: "class",
+};
