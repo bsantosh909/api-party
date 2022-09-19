@@ -148,10 +148,19 @@
             </div>
           </div>
 
-          <hr class="mt-5 mb-2 h-1 border-gray-500" />
-
-          <div>
+          <div class="py-3 my-5 border-y border-gray-500">
             {{ api.description }}
+          </div>
+
+          <div class="flex gap-x-5">
+            <!-- HTTPs badge -->
+            <div
+              v-if="api.features.https"
+              class="flex gap-x-1 items-center text-sm px-2 py-1 bg-green-300 dark:bg-green-700 border border-green-400 dark:border-green-700 rounded shadow"
+            >
+              <IconsHttps width="20" height="20" />
+              <span>HTTPs</span>
+            </div>
           </div>
         </div>
       </div>
