@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://spoonacular.com/food-api
-logo: food_api.png
+logo: food-api.png
 ---

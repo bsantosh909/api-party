@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: http://place-puppy.com
-logo: default.png
+logo:
 ---
