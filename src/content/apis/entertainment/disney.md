@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://disneyapi.dev/
-logo: disneyapi.png
+logo:
 ---
