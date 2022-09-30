@@ -4,8 +4,8 @@ services:
   web:
     build:
       context: .
-    image: nuxt_dev
-    container_name: nuxt_dev
+    image: api_party
+    container_name: api_party
     command: yarn dev
     volumes:
       - .:/app
