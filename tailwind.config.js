@@ -2,9 +2,25 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            a: {
+              textDecoration: "none",
+              "&:hover": {
+                textDecoration: "underline",
+              },
+            },
+          },
+        },
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    // https://tailwindcss.com/docs/typography-plugin
+    require("@tailwindcss/typography"),
+  ],
   //
   darkMode: "class",
 };

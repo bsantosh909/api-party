@@ -15,3 +15,9 @@ export interface ApiItem extends MarkdownParsedContent {
     https: boolean;
   };
 }
+
+//
+export interface WikiItem extends MarkdownParsedContent {
+  title: string;
+  description: string;
+}
