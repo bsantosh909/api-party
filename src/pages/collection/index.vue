@@ -130,7 +130,12 @@
             />
 
             <div class="my-auto">
-              <NuxtLink :to="api.url" target="_blank" class="group">
+              <NuxtLink
+                :to="api.url"
+                target="_blank"
+                class="group"
+                :prefetch="false"
+              >
                 <div class="flex gap-x-2">
                   <h2 class="text-xl font-semibold mb-2 group-hover:underline">
                     {{ api.name }}
