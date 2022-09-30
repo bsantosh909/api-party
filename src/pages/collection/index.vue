@@ -318,7 +318,7 @@ const allCategories = computed(() => {
       else list.push({ key: cat, name: cat.replace(/-/, " "), count: 1 });
     });
 
-  return list;
+  return list.sort((a, b) => (a.name > b.name ? 1 : -1));
 });
 
 //
