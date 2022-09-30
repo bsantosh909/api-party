@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://http.dog/
-logo:
+logo: http-dog.svg
 ---
