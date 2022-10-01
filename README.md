@@ -5,7 +5,7 @@
 <h4>What is API Party?</h4>
 <p> If you are wondering what it is all about, then this is an small project built to list the awesome API created by hundreds of users and companies around the world. Everyone loves to use awesome API in their personal/professional project. That is why we introduce <b>API Party!</b> 
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
+---
 
 <p align="center">
     🌟
