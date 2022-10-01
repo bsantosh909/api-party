@@ -4,7 +4,7 @@ description: GIPHY's API makes it dead simple for developers to incorporate GIPH
 categories:
   - images
 features:
-  http: true
+  https: true
 url: https://developers.giphy.com/
 logo: 
 ---
