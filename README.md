@@ -29,4 +29,3 @@ See [contributing guide](https://github.com/TheLearneer/api-party/blob/main/CONT
 ## License
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
-
