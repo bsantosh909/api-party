@@ -30,4 +30,5 @@ See [contributing guide](.github/CONTRIBUTING.md) to get started.
 ## License
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
+---
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
