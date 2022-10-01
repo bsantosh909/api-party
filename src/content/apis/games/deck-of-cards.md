@@ -7,5 +7,4 @@ categories:
 features:
   https: true
 url: https://deckofcardsapi.com/
-logo: 
----
+
