@@ -2,7 +2,8 @@
 name: BrainShop.AI
 description: A highly customizable, multilingual chatbot API by Acobot
 categories:
-  - chatbot
+  - entertainment
+  - miscs
 features:
   https: true
 url: https://brainshop.ai
