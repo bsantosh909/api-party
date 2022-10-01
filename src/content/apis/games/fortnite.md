@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://fortniteapi.io/
-logo: 
+logo:
 ---
