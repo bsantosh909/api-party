@@ -23,6 +23,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 See [contributing guide](.github/CONTRIBUTING.md) to get started.
 
+---
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 
