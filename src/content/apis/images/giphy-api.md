@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://developers.giphy.com/
-logo: 
+logo:
 ---
