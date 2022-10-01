@@ -13,7 +13,7 @@
     ·
     <a href="https://github.com/TheLearneer/api-party/blob/main/.github/ISSUE_TEMPLATE/bug_report.md">Report Bug</a>
     ·
-    <a href="https://github.com/TheLearneer/api-party/blob/main/.github/ISSUE_TEMPLATE/feature_request.md">Request Feature</a>🌟
+    <a href="https://github.com/TheLearneer/api-party/issues/new/choose">Request Feature</a>🌟
 </p>
 
 ---
