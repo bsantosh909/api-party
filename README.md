@@ -24,7 +24,6 @@ Contributions are what make the open-source community such an amazing place to l
 See [contributing guide](https://github.com/TheLearneer/api-party/blob/main/CONTRIBUTING.md) to get started.
 
 ---
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 
 ## License
