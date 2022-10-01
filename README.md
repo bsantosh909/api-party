@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://apiparty.vercel.app/"><img src="src/public/images/logo.png" alt="logo"/></a>
+<a href="https://apiparty.vercel.app/"><img src="https://github.com/TheLearneer/api-party/blob/main/src/public/images/logo.png" alt="logo"/></a>
 </p>
 
 <h4>What is API Party?</h4>
