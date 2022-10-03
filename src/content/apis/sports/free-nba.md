@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://www.balldontlie.io/#introduction
-logo: https://www.balldontlie.io/images/cryingjordan.jpeg
+logo: free-nba.jpeg
 ---
