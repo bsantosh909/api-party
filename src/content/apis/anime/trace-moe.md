@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://soruly.github.io/trace.moe-api/#/
-logo:
+logo: trace-moe.png
 ---
