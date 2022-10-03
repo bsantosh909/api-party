@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://docs.bravenewcoin.com/
-logo: https://docs.bravenewcoin.com/images/logo.png
+logo: Brave-New-Coin.png
 ---

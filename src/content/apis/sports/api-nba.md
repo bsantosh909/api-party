@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://api-sports.io/documentation/nba/v2
-logo: https://www.api-basketball.com/public/img/home1/hero-banner1.png
+logo: API-NBA.png
 ---
