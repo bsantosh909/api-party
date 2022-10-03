@@ -1,11 +1,8 @@
 ---
-name: Yoda translator API
-description: Yoda translator API gives you API access to yoda translator, so that you can integrate this functionality in your websites or applications.
+name: Fun Translations API
+description: This api will help you to translate in fun language. If you are a fan of minions, this api is for you.
 categories:
-  - translations
+  - entertainment
 features:
   https: true
 url: https://api.funtranslations.com/translate/yoda.json
-
-logo:
----
