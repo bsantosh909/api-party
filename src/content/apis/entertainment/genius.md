@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://docs.genius.com/
-logo: https://docs.genius.com/images/snarly_wordmark_hires.png
+logo: genius.png
 ---
