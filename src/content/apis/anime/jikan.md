@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://jikan.moe/
-logo:
+logo: jikan.png
 ---
