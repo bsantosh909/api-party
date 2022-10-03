@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://www.edamam.com/
-logo: food-api.png
+logo: Edamam.png
 ---
