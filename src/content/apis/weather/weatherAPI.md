@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://www.weatherapi.com/docs/
-logo: https://cdn.weatherapi.com/v4/images/weatherapi_logo.png
+logo: weatherAPI.webp
 ---
