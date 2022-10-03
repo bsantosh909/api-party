@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://animechan.vercel.app/
-logo:
+logo: animechan.png
 ---

@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://www.animenewsnetwork.com/encyclopedia/api.php
-logo:
+logo: anime-news-network.png
 ---
