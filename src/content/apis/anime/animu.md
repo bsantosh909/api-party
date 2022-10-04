@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://docs.animu.ml
-logo:
+logo: animu.png
 ---
