@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://www.weatherbit.io/api
-logo: 
+logo:
 ---
