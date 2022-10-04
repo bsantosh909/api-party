@@ -2,7 +2,7 @@
   <div>
     <h1 class="text-center text-4xl font-semibold">{{ article?.title }}</h1>
 
-    <article class="prose dark:prose-invert lg:prose-xl">
+    <article class="prose dark:prose-invert">
       <ContentRenderer :value="article" />
     </article>
   </div>
@@ -19,3 +19,9 @@ const article = await queryContent<WikiItem>(
   `/wiki/${route.params.slug}`
 ).findOne();
 </script>
+
+<style scoped>
+.prose {
+  max-width: 100%;
+}
+</style>
