@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://www.api-football.com/documentation-v3
-logo: API_Football.png
+logo: API-Football.png
 ---
