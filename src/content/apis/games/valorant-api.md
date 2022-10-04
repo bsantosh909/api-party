@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://dash.valorant-api.com/
-logo: valo.png
+logo: valorant_logo.png
 ---
