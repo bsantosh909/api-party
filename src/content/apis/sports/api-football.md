@@ -1,6 +1,6 @@
 ---
 name: API Football
-description:  API to access all API endpoints, which can get information about Football Leagues & Cups
+description: API to access all API endpoints, which can get information about Football Leagues & Cups
 categories:
   - sports
 features:
