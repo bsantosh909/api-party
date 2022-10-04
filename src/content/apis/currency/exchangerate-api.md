@@ -1,5 +1,5 @@
 ---
-name: ExchangeRate-API
+name: ExchangeRate API
 description: The Accurate & Reliable Exchange Rate API
 categories:
   - currency
