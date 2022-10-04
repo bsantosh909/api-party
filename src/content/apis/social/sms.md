@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://rapidapi.com/sms77io-sms77io-default/api/sms77io/
-logo: sms77io.avif
+logo: sms77io.jpg
 ---
