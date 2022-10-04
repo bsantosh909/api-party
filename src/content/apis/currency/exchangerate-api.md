@@ -2,7 +2,7 @@
 name: ExchangeRate-API
 description: The Accurate & Reliable Exchange Rate API
 categories:
-  - exchange-rate
+  - currency
 features:
   https: true
 url: https://www.exchangerate-api.com/docs/overview
