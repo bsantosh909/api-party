@@ -8,4 +8,3 @@ features:
 url: https://rawg.io/apidocs
 logo:
 ---
-
