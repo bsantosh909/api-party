@@ -1,6 +1,6 @@
 ---
 name: Valorant
-description: This provide an extensive API containing data of most in-game items, assets and more!
+description: Provides an extensive API containing data of most in-game items, assets and more!
 categories:
   - games
 features:
