@@ -1,8 +1,9 @@
 ---
 name: Web Series Quotes Api
-description: Web series quote generators 
+description: Quotes of various web series with image generating feature
+
 categories:
-    - movies 
+    - entertainment
 features:
     https: true 
 url: https://web-series-quotes-api.deta.dev/docs
