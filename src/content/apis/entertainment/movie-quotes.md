@@ -3,9 +3,9 @@ name: Web Series Quotes Api
 description: Quotes of various web series with image generating feature
 
 categories:
-    - entertainment
+  - entertainment
 features:
-    https: true 
+  https: true
 url: https://web-series-quotes-api.deta.dev/docs
-logo: 
+logo:
 ---
