@@ -1,7 +1,6 @@
 ---
 name: Web Series Quotes Api
 description: Quotes of various web series with image generating feature
-
 categories:
   - entertainment
 features:
