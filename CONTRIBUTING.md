@@ -23,6 +23,6 @@ Adding a new API entry to the list is just as easy as following the steps below:
   - NOTE: **If the directory matching the category doesn't exists, you can create one**
   - NOTE: **If an API can have multiple directory, you can put the new file into either directory (only one)**
 - Copy the content (template) of `content/sample-api.md` to the new file you just created
-- Update the details with the actaul data
+- Update the details with the actual data
   - For the image, if the API has a logo, add the image file in `public/logo/{api-name}`
   - In the api file's logo key, add the filename with extension of the image you just added in the `public/logo` directory.
