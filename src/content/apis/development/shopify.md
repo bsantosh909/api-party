@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://shopify.dev/api
-logo:
+logo: shopify.png
 ---

@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://stripe.com/docs/api
-logo:
+logo: stripe.svg
 ---
