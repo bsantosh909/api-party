@@ -6,3 +6,5 @@ categories:
 features:
   https: true
 url: https://api.funtranslations.com/translate/yoda.json
+logo:
+---
