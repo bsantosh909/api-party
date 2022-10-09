@@ -1,6 +1,6 @@
 ---
 name: Stripe API
-description: The Stripe API allows developers to access the functionality of Stripe. Some example API methods include sending invoices, accepting payments, managing subscription billing, and editing and managing account information.
+description: It allows developers to access the functionality of Stripe like sending invoices and accepting payments.
 categories:
   - development
 features:
