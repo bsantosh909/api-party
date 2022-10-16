@@ -1,10 +1,10 @@
 ---
-name: RijksData
-description: Access object metadata and bibliographic data for the Rijksmuseum collection.
+name: Harvard Art Museums
+description: Direct access to JSON formatted data to explore or integrate the museums’ collections into projects.
 categories:
   - art
 features:
   https: true
-url: https://data.rijksmuseum.nl/
-logo: Rijks_museum_logo.png
+url: https://harvardartmuseums.org/collections/api
+logo: harvard_art_museums_logo.png
 ---
