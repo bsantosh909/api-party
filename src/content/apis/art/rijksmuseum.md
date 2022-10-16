@@ -1,5 +1,5 @@
 ---
-name: RijksData
+name: Rijksmuseum
 description: Access object metadata and bibliographic data for the Rijksmuseum collection.
 categories:
   - art
