@@ -12,7 +12,7 @@
       <div
         v-for="(wiki, i) of wikiArticles"
         :key="i"
-        class="border border-gray-300 dark:border-gray-700 bg-gray-200 dark:bg-gray-800 rounded shadow"
+        class="border border-gray-300 dark:border-gray-700 bg-gray-200 dark:bg-gray-800 rounded shadow mb-7"
       >
         <NuxtLink :to="wiki._path">
           <div class="p-5 cursor-pointer">
