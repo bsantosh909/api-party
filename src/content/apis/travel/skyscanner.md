@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://developers.skyscanner.net/docs/intro
-logo:
+logo: skyscanner.svg
 ---
