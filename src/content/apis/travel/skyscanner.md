@@ -1,6 +1,6 @@
 ---
 name: SkyScanner
-description: Skyscanner API you can search for Skyscanner flights, hotels and car rentals.
+description: Skyscanner API helps you search for Skyscanner flights, hotels and car rentals.
 categories:
   - travel
 features:
