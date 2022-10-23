@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://www.balldontlie.io/#introduction
-logo: free-nba.jpeg
+logo:
 ---
