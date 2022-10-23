@@ -2,6 +2,9 @@ name: Test
 
 on:
   # Trigger the workflow on pull request against the main branch only
+  push:
+    branches:
+      - main
   pull_request:
     branches:
       - main
