@@ -1,18 +1,14 @@
-name: Lint
+name: Test
 
 on:
-  # Trigger the workflow on push or pull request,
-  # but only for the main branch
-  push:
-    branches:
-      - main
+  # Trigger the workflow on pull request against the main branch only
   pull_request:
     branches:
       - main
 
 jobs:
-  run-linters:
-    name: Run linters
+  prettier-check:
+    name: Prettier format
     runs-on: ubuntu-latest
 
     steps:
@@ -24,12 +20,8 @@ jobs:
         with:
           node-version: 16
 
-      # ESLint and Prettier must be in `package.json`
       - name: Install Node.js dependencies
         run: yarn install
 
       - name: Run linters
-        uses: wearerequired/lint-action@v2
-        with:
-          # eslint: true
-          prettier: true
+        run: yarn format:check
