@@ -74,7 +74,7 @@
 
         <!-- Other filers -->
         <div>
-          <div class="p-2 bg-gray-300 dark:bg-gray-700 rounded shadow">
+          <div class="p-2 mb-4 bg-gray-300 dark:bg-gray-700 rounded shadow">
             <fieldset class="flex">
               <input
                 type="checkbox"
@@ -84,6 +84,20 @@
               />
               <label for="https-only" class="cursor-pointer">
                 Secure only (HTTPs)
+              </label>
+            </fieldset>
+          </div>
+
+          <div class="p-2 bg-gray-300 dark:bg-gray-700 rounded shadow">
+            <fieldset class="flex">
+              <input
+                type="checkbox"
+                id="show-deprecated"
+                class="w-4 h-4 my-auto mr-2 cursor-pointer"
+                v-model="showDeprecated"
+              />
+              <label for="show-deprecated" class="cursor-pointer">
+                Show deprecated APIs
               </label>
             </fieldset>
           </div>
@@ -157,7 +171,16 @@
             {{ api.description }}
           </div>
 
-          <div class="flex gap-x-5">
+          <div class="flex gap-x-2">
+            <!-- Deprecated badge -->
+            <div
+              v-if="api.features.deprecated"
+              class="flex gap-x-1 items-center text-sm px-2 py-1 bg-red-300 dark:bg-red-700 border border-red-400 dark:border-red-700 rounded shadow"
+            >
+              <IconsDeprecated width="20" height="20" />
+              <span>Deprecated</span>
+            </div>
+
             <!-- HTTPs badge -->
             <div
               v-if="api.features.https"
@@ -252,9 +275,10 @@ const apiListRef = ref(null);
 const searchInput = ref("");
 const selectedCategories = ref([]);
 const httpsOnly = ref(false);
+const showDeprecated = ref(false);
 
 // Resetting skip value every time search input is changed
-watch([searchInput, httpsOnly, selectedCategories], () => {
+watch([searchInput, httpsOnly, showDeprecated, selectedCategories], () => {
   skip.value = 0;
 });
 
@@ -265,7 +289,7 @@ watch([skip], () => {
 // Fetching the API items
 const data = await queryContent<ApiItem>("/apis")
   .only(["name", "description", "logo", "categories", "url", "features"])
-  .sort({ title: 1, "features.https": -1 })
+  .sort({ title: 1, "features.https": -1, "features.deprecated": -1 })
   .find();
 
 // Filtering API items
@@ -276,6 +300,11 @@ const filteredDataWithoutPagination = computed(() => {
       if (!httpsOnly.value) return true;
 
       return item.features?.https;
+    })
+    // Filter deprecated items
+    .filter((item) => {
+      if (!showDeprecated.value) return !item.features?.deprecated;
+      return true;
     })
     // Filter by categories
     .filter((item) => {

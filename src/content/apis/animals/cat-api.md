@@ -5,6 +5,7 @@ categories:
   - animals
 features:
   https: true
+  deprecated: true
 url: https://thatcopy.pw/catapi/
 logo:
 ---

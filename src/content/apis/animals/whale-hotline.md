@@ -5,6 +5,7 @@ categories:
   - animals
 features:
   https: true
+  deprecated: true
 url: https://hotline.whalemuseum.org/api
 logo: the-whale-hotline.png
 ---
