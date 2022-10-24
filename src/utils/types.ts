@@ -13,6 +13,7 @@ export interface ApiItem extends MarkdownParsedContent {
   description: string;
   features: {
     https: boolean;
+    deprecated: boolean;
   };
 }
 

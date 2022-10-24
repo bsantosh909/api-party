@@ -5,6 +5,6 @@ categories:
   - animals
 features:
   https: true
-url: https://dukengn.github.io/Dog-facts-API/
+url: https://github.com/DucNgn/Dog-Facts-API-v2/
 logo:
 ---

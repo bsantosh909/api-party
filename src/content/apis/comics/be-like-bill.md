@@ -6,6 +6,7 @@ categories:
   - entertainment
 features:
   https: true
+  deprecated: true
 url: https://github.com/gautamkrishnar/Be-Like-Bill
 logo:
 ---

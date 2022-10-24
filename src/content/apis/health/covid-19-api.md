@@ -5,6 +5,7 @@ categories:
   - health
 features:
   https: true
+  deprecated: true
 url: https://github.com/M-Media-Group/Covid-19-API
 logo:
 ---
