@@ -5,6 +5,6 @@ categories:
   - entertainment
 features:
   https: true
-url: https://api.funtranslations.com/translate/yoda.json
+url: https://api.funtranslations.com/
 logo:
 ---
