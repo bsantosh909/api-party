@@ -14,7 +14,7 @@ diverse, inclusive, and healthy community.
 
 ## Our Standards
 
-Examples of behaviour that contributes to a positive environment for our
+Examples of behavior that contributes to a positive environment for our
 community include:
 
 - Demonstrating empathy and kindness toward other people
@@ -25,7 +25,7 @@ community include:
 - Focusing on what is best not just for us as individuals, but for the
   overall community
 
-Examples of unacceptable behaviour include:
+Examples of unacceptable behavior include:
 
 - The use of sexualized language or imagery, and sexual attention or
   advances of any kind
@@ -50,7 +50,7 @@ decisions when appropriate.
 
 ## Scope
 
-This Code of Conduct applies within all community spaces and also applies when
+This Code of Conduct applies within all community spaces, and also applies when
 an individual is officially representing the community in public spaces.
 Examples of representing our community include using an official e-mail address,
 posting via an official social media account, or acting as an appointed
@@ -87,7 +87,7 @@ of actions.
 
 **Consequence**: A warning with consequences for continued behavior. No
 interaction with the people involved, including unsolicited interaction with
-those enforcing the Code of Conduct, for a specified period. This
+those enforcing the Code of Conduct, for a specified period of time. This
 includes avoiding interactions in community spaces as well as external channels
 like social media. Violating these terms may lead to a temporary or
 permanent ban.
@@ -98,7 +98,7 @@ permanent ban.
 sustained inappropriate behavior.
 
 **Consequence**: A temporary ban from any sort of interaction or public
-communication with the community for a specified period. No public or
+communication with the community for a specified period of time. No public or
 private interaction with the people involved, including unsolicited interaction
 with those enforcing the Code of Conduct, is allowed during this period.
 Violating these terms may lead to a permanent ban.
