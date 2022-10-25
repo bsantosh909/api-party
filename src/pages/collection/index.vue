@@ -89,7 +89,7 @@
             </fieldset>
           </div>
 
-        <!-- Show Deprecated-->
+          <!-- Show Deprecated-->
           <div class="p-2 bg-gray-300 dark:bg-gray-700 rounded shadow">
             <fieldset class="flex">
               <input
@@ -113,12 +113,9 @@
                 class="w-4 h-4 my-auto mr-2 cursor-pointer"
                 v-model="httpsOnly"
               />
-              <label for="https-only" class="cursor-pointer">
-                Free APIs
-              </label>
+              <label for="https-only" class="cursor-pointer"> Free APIs </label>
             </fieldset>
           </div>
-          
         </div>
       </div>
     </div>
@@ -210,7 +207,7 @@
 
             <!-- Free APIs -->
             <div
-              v-if="api.features.payment==='Free'"
+              v-if="api.features.payment === 'Free'"
               class="flex gap-x-1 items-center text-sm px-2 py-1 bg-green-300 dark:bg-green-700 border border-green-400 dark:border-green-700 rounded shadow"
             >
               <IconsHttps width="20" height="20" />
@@ -218,14 +215,14 @@
             </div>
 
             <div
-              v-else-if="api.features.payment==='Upgradable'"
+              v-else-if="api.features.payment === 'Upgradable'"
               class="flex gap-x-1 items-center text-sm px-2 py-1 bg-green-300 dark:bg-green-700 border border-green-400 dark:border-green-700 rounded shadow"
             >
               <IconsHttps width="20" height="20" />
               <span>Upgradable</span>
             </div>
             <div
-              v-else-if="api.features.payment==='Paid'"
+              v-else-if="api.features.payment === 'Paid'"
               class="flex gap-x-1 items-center text-sm px-2 py-1 bg-green-300 dark:bg-green-700 border border-green-400 dark:border-green-700 rounded shadow"
             >
               <IconsHttps width="20" height="20" />
@@ -238,7 +235,6 @@
               <IconsHttps width="20" height="20" />
               <span>Unknown</span>
             </div>
-
           </div>
         </div>
       </div>
