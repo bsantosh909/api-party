@@ -2,8 +2,7 @@
 name: Dummy 2
 description: This is a dummy API which is upgradable
 categories:
-  - comics
-  - entertainment
+  - animals
 features:
   https: true
   deprecated: true
