@@ -8,6 +8,3 @@ features:
 url: https://api.nasa.gov/
 logo: nasaapi.jpg
 ---
-
-
-

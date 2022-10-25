@@ -1,6 +1,6 @@
 ---
 name: Baato
-description: Baato delivers precise maps and geospatial data to improve the way you navigate Nepal. 
+description: Baato delivers precise maps and geospatial data to improve the way you navigate Nepal.
 categories:
   - geocoding
 features:

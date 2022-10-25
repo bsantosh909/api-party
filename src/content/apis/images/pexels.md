@@ -1,5 +1,5 @@
 ---
-name: Pexels API 
+name: Pexels API
 description: Get free stock images and videos
 categories:
   - images
