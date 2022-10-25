@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://rapidapi.com/Glavier/api/genius-song-lyrics1/
-logo: Genius API.png
+logo: Genius_API.png
 ---
