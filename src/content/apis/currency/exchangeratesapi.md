@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://exchangeratesapi.io/
-logo: exchangeratesapi_logo_white.png
+logo: exchangeratesapi_logo.png
 ---
