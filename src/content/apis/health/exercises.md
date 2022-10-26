@@ -1,5 +1,5 @@
 ---
-name: Exercises API 
+name: Exercises-API 
 description:  Access thousands of exercises with individual exercise data and animated demonstrations 
 categories:
   - health
