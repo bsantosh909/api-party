@@ -5,6 +5,6 @@ categories:
   - health
 features:
   https: true
-url: 'https://rapidapi.com/ExoWatts/api/exercises2/'
+url: https://rapidapi.com/ExoWatts/api/exercises2/
 logo: exercise.jpg
 ---
