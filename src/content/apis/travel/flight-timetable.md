@@ -1,5 +1,5 @@
 ---
-name: TimeTable-Lookup
+name: TimeTable Lookup
 description: This API gives data of Flight Schedules of all flights
 categories:
   - travel
