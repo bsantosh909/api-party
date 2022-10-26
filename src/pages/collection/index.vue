@@ -228,13 +228,6 @@
               <IconsMoney width="20" height="20" />
               <span>Paid</span>
             </div>
-            <!-- <div
-              v-else="api.features.payment"
-              class="flex gap-x-1 items-center text-sm px-2 py-1 bg-green-300 dark:bg-green-700 border border-green-400 dark:border-green-700 rounded shadow"
-            >
-              <IconsHttps width="20" height="20" />
-              <span>Unknown</span>
-            </div> -->
           </div>
         </div>
       </div>
@@ -353,10 +346,6 @@ const filteredDataWithoutPagination = computed(() => {
       if (!showDeprecated.value) return !item.features?.deprecated;
       return true;
     })
-    // .filter((item)=>{
-    //   if (!freeOnly.value) return !item.features?.payment;
-    //   return true;
-    // })
 
     // Filter by categories
     .filter((item) => {
