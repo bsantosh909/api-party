@@ -5,6 +5,6 @@ categories:
   - travel
 features:
   https: true
-url: 'https://timetable-lookup.p.rapidapi.com/codes/entertainment/'
+url: 'https://rapidapi.com/flightlookup/api/timetable-lookup'
 logo: flight_timetable.jpg
 ---
