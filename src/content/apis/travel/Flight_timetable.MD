@@ -1,19 +1,10 @@
-##  TimeTable Lookup API
-
-Description: This API gives data of Flight Schedules of all flights .
+---
+name: TimeTable Lookup
+description:  This API gives data of Flight Schedules of all flights 
 categories:
-  - Travel
+  - travel
 features:
   https: true
-  
-Method: 'GET',
-
-URL : 'https://timetable-lookup.p.rapidapi.com/codes/entertainment/',
-
-Headers: {
-
-    'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY',
-    
-    'X-RapidAPI-Host': 'timetable-lookup.p.rapidapi.com'
-    
-}
+url: 'https://timetable-lookup.p.rapidapi.com/codes/entertainment/'
+logo: flight_timetable.jpg
+---
