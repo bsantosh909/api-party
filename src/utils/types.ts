@@ -14,7 +14,7 @@ export interface ApiItem extends MarkdownParsedContent {
   features: {
     https: boolean;
     deprecated: boolean;
-    payment: string;
+    payment: string;  // Only 'Free', 'Upgradable', 'Paid' values are acceptable
   };
 }
 

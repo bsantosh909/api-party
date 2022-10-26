@@ -1,12 +1,11 @@
 ---
-name: Dummy 2
-description: This is a dummy API which is upgradable
+name: Catfact Dummy 2
+description: Random cat facts to amaze you. Bonus includes information about cat breeds.
 categories:
   - animals
 features:
   https: true
-  deprecated: true
-  payment: Upgradable
-url: https://github.com/TheLearneer/api-party
+  payment: 'Upgradable'
+url: https://catfact.ninja/
 logo:
 ---

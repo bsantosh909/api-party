@@ -105,17 +105,17 @@
           </div>
 
           <!-- Free APIs -->
-          <div class="p-2 mb-4 bg-gray-300 dark:bg-gray-700 rounded shadow">
+          <!-- <div class="p-2 mb-4 bg-gray-300 dark:bg-gray-700 rounded shadow">
             <fieldset class="flex">
               <input
                 type="checkbox"
                 id="free-api"
                 class="w-4 h-4 my-auto mr-2 cursor-pointer"
-                v-model="httpsOnly"
+                v-model="freeOnly"
               />
-              <label for="https-only" class="cursor-pointer"> Free APIs </label>
+              <label for="free-api" class="cursor-pointer"> Free APIs </label>
             </fieldset>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -208,33 +208,35 @@
             <!-- Free APIs -->
             <div
               v-if="api.features.payment === 'Free'"
-              class="flex gap-x-1 items-center text-sm px-2 py-1 bg-green-300 dark:bg-green-700 border border-green-400 dark:border-green-700 rounded shadow"
+              class="flex gap-x-1 items-center text-sm px-2 py-1 bg-blue-300 dark:bg-blue-700 border border-blue-400 dark:border-blue-700 rounded shadow"
             >
-              <IconsHttps width="20" height="20" />
+              <IconsMoney width="20" height="20" />
               <span>Free</span>
             </div>
 
+
+
             <div
               v-else-if="api.features.payment === 'Upgradable'"
-              class="flex gap-x-1 items-center text-sm px-2 py-1 bg-green-300 dark:bg-green-700 border border-green-400 dark:border-green-700 rounded shadow"
+              class="flex gap-x-1 items-center text-sm px-2 py-1 bg-blue-300 dark:bg-blue-700 border border-blue-400 dark:border-blue-700 rounded shadow"
             >
-              <IconsHttps width="20" height="20" />
+              <IconsMoney width="20" height="20" />
               <span>Upgradable</span>
             </div>
             <div
               v-else-if="api.features.payment === 'Paid'"
-              class="flex gap-x-1 items-center text-sm px-2 py-1 bg-green-300 dark:bg-green-700 border border-green-400 dark:border-green-700 rounded shadow"
+              class="flex gap-x-1 items-center text-sm px-2 py-1 bg-blue-300 dark:bg-blue-700 border border-blue-400 dark:border-blue-700 rounded shadow"
             >
-              <IconsHttps width="20" height="20" />
+              <IconsMoney width="20" height="20" />
               <span>Paid</span>
             </div>
-            <div
+            <!-- <div
               v-else="api.features.payment"
               class="flex gap-x-1 items-center text-sm px-2 py-1 bg-green-300 dark:bg-green-700 border border-green-400 dark:border-green-700 rounded shadow"
             >
               <IconsHttps width="20" height="20" />
               <span>Unknown</span>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -322,6 +324,7 @@ const searchInput = ref("");
 const selectedCategories = ref([]);
 const httpsOnly = ref(false);
 const showDeprecated = ref(false);
+// const freeOnly=ref(false)
 
 // Resetting skip value every time search input is changed
 watch([searchInput, httpsOnly, showDeprecated, selectedCategories], () => {
@@ -352,6 +355,11 @@ const filteredDataWithoutPagination = computed(() => {
       if (!showDeprecated.value) return !item.features?.deprecated;
       return true;
     })
+    // .filter((item)=>{
+    //   if (!freeOnly.value) return !item.features?.payment;
+    //   return true;
+    // })
+
     // Filter by categories
     .filter((item) => {
       if (!selectedCategories.value.length) return true;
