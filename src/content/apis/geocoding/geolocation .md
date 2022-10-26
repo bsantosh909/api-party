@@ -1,6 +1,6 @@
 ---
 name: Geolocation
-description: IP2Location IP Geolocation web service is a REST API service to do a reverse IP location lookup for ISO3166 country code, region or state, city and so on.
+description: IP Geolocation API returns location information of an IP address like country, region, city, ZIP code and so on.
 categories:
   - geocoding
 features:
