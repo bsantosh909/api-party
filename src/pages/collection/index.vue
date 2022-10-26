@@ -214,8 +214,6 @@
               <span>Free</span>
             </div>
 
-
-
             <div
               v-else-if="api.features.payment === 'Upgradable'"
               class="flex gap-x-1 items-center text-sm px-2 py-1 bg-blue-300 dark:bg-[#29479A] border border-blue-400 dark:border-[#29479A] rounded shadow"

@@ -5,6 +5,7 @@ categories:
   - animals
 features:
   https: true
+  payment: Free
 url: https://aws.random.cat/
 logo: random-cat.png
 ---

@@ -5,6 +5,7 @@ categories:
   - animals
 features:
   https: true
+  payment: Free
 url: http://place-puppy.com
 logo:
 ---

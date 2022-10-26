@@ -5,6 +5,7 @@ categories:
   - animals
 features:
   https: true
+  payment: Free
 url: https://place.dog/
 logo:
 ---

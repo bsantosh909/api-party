@@ -5,6 +5,7 @@ categories:
   - animals
 features:
   https: true
+  payment: Free
 url: https://http.dog/
 logo: http-dog.svg
 ---

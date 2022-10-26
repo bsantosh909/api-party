@@ -5,6 +5,7 @@ categories:
   - animals
 features:
   https: true
+  payment: Free
 url: https://userguide.rescuegroups.org/display/APIDG/
 logo:
 ---

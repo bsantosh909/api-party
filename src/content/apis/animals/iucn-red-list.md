@@ -5,6 +5,7 @@ categories:
   - animals
 features:
   https: false
+  payment: Free
 url: http://apiv3.iucnredlist.org/api/v3/docs
 logo: iucn-red-list.svg
 ---
