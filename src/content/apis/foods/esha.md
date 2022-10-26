@@ -1,6 +1,6 @@
 ---
 name: Esha
-description: The ESHA Nutrition API is designed to simplify the integration of your application with ESHA’s extensive food database and nutritional standards.
+description: You can rely on ESHA for high-quality source food and nutritional standards.
 categories:
   - foods
 features:
