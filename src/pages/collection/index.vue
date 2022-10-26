@@ -289,7 +289,7 @@ watch([skip], () => {
 // Fetching the API items
 const data = await queryContent<ApiItem>("/apis")
   .only(["name", "description", "logo", "categories", "url", "features"])
-  .sort({ title: 1, "features.https": -1, "features.deprecated": -1 })
+  .sort({ title: 1 })
   .find();
 
 // Filtering API items
