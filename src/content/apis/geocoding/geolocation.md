@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://www.geolocation.com/ip-geolocation-api
-logo: geolocation.jpg
+logo: geolocation.png
 ---
