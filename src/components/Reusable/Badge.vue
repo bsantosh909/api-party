@@ -1,6 +1,6 @@
 <template>
   <div
-    class="font-semibold rounded select-none capitalize dark:text-with-shadow bg-gray-200 dark:bg-cyan-800 border"
+    class="font-semibold rounded select-none capitalize dark:text-with-shadow bg-white dark:bg-cyan-800 border"
     :class="[
       small ? 'px-2 py-1' : 'px-3 py-1',
       active
