@@ -6,5 +6,5 @@ categories:
 features:
   https: true
 url: https://rapidapi.com/ExoWatts/api/exercises2/
-logo: Exercise.jpg
+logo: exercise.jpg
 ---
