@@ -5,6 +5,7 @@ categories:
   - entertainment
 features:
   https: true
+  payment: free
 url: https://www.boredapi.com/
 logo:
 ---

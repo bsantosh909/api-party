@@ -5,6 +5,7 @@ categories:
   - entertainment
 features:
   https: true
+  payment: free
 url: https://quizapi.io/
 logo:
 ---
