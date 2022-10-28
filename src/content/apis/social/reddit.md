@@ -5,6 +5,7 @@ categories:
   - social
 features:
   https: true
+  payment: free
 url: https://www.reddit.com/dev/api
 logo: reddit.png
 ---

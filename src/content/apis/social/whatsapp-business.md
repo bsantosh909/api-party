@@ -5,6 +5,7 @@ categories:
   - social
 features:
   https: true
+  payment: paid
 url: https://developers.facebook.com/docs/whatsapp/
 logo: whatsapp.png
 ---
