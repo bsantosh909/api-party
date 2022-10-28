@@ -5,6 +5,7 @@ categories:
   - currency
 features:
   https: true
+  payment: upgradable
 url: https://fixer.io/
 logo: fixer.png
 ---

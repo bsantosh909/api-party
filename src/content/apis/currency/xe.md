@@ -5,6 +5,7 @@ categories:
   - currency
 features:
   https: true
+  payment: paid
 url: https://www.xe.com/xecurrencydata/
 logo: xe.svg
 ---
