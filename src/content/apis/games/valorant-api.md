@@ -5,6 +5,7 @@ categories:
   - games
 features:
   https: true
+  payment: free
 url: https://dash.valorant-api.com/
 logo: valorant_logo.png
 ---

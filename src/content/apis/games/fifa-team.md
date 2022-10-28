@@ -5,6 +5,7 @@ categories:
   - games
 features:
   https: true
+  payment: upgradable
 url: https://futdb.app/api/doc
 logo:
 ---

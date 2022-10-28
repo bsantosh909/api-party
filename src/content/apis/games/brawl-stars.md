@@ -5,6 +5,7 @@ categories:
   - games
 features:
   https: true
+  payment: free
 url: https://developer.brawlstars.com/
 logo: brawl-stars.png
 ---
