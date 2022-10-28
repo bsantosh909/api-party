@@ -5,6 +5,7 @@ categories:
   - music
 features:
   https: true
+  payment: upgradable
 url: https://www.theaudiodb.com/api_guide.php
 logo: audiodb.png
 ---
