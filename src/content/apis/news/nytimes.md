@@ -5,6 +5,7 @@ categories:
   - news
 features:
   https: true
+  payment: upgradable
 url: https://developer.nytimes.com/
 logo: nytimes.png
 ---
