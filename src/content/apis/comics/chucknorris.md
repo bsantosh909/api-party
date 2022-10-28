@@ -6,6 +6,7 @@ categories:
   - entertainment
 features:
   https: true
+  payment: free
 url: https://api.chucknorris.io/
 logo: chucknorris.png
 ---

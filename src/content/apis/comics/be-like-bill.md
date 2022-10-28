@@ -7,6 +7,7 @@ categories:
 features:
   https: true
   deprecated: true
+  payment: unknown
 url: https://github.com/gautamkrishnar/Be-Like-Bill
 logo:
 ---

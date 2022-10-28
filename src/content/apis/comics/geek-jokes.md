@@ -6,6 +6,7 @@ categories:
   - entertainment
 features:
   https: true
+  payment: free
 url: https://github.com/sameerkumar18/geek-joke-api
 logo:
 ---
