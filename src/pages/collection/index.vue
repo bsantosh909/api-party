@@ -192,7 +192,7 @@
               <span>HTTPs</span>
             </div>
 
-            <!-- Free APIs -->
+            <!-- Payment badge -->
             <div
               v-if="api.features.payment"
               class="flex gap-x-1 items-center text-sm px-2 py-1 bg-blue-300 dark:bg-blue-700 border border-blue-400 dark:border-blue-800 rounded shadow"
