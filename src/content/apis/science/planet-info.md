@@ -5,6 +5,7 @@ categories:
   - science
 features:
   https: true
+  payment: free
 url: https://rapidapi.com/newbAPIOfficial/api/planets-info-by-newbapi
 logo:
 ---
