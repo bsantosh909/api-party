@@ -5,6 +5,7 @@ categories:
   - geocoding
 features:
   https: true
+  payment: free
 url: https://www.ipify.org/
 logo:
 ---

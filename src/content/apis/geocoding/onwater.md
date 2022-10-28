@@ -5,6 +5,8 @@ categories:
   - geocoding
 features:
   https: true
+  deprecate: true
+  payment: free
 url: https://onwater.io/
 logo: onwater.png
 ---

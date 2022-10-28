@@ -5,6 +5,7 @@ categories:
   - geocoding
 features:
   https: true
+  payment: upgradable
 url: https://ipdata.co/
 logo: ipdata.png
 ---
