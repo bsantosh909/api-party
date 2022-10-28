@@ -5,7 +5,7 @@ categories:
   - animals
 features:
   https: true
-  payment: Free
+  payment: free
 url: https://github.com/movebank/movebank-api-doc
 logo: move-bank.jfif
 ---

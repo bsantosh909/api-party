@@ -5,7 +5,7 @@ categories:
   - animals
 features:
   https: true
-  payment: Free
+  payment: free
 url: https://dog.ceo/dog-api/
 logo: dog-api.svg
 ---

@@ -5,7 +5,7 @@ categories:
   - animals
 features:
   https: true
-  payment: Upgradable
+  payment: upgradable
 url: https://alexwohlbruck.github.io/cat-facts/
 logo:
 ---

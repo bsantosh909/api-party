@@ -5,7 +5,7 @@ categories:
   - animals
 features:
   https: true
-  payment: Free
+  payment: free
 url: https://randomfox.ca/
 logo: random-fox.png
 ---
