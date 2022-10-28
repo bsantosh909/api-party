@@ -5,6 +5,7 @@ categories:
   - development
 features:
   https: true
+  payment: free
 url: https://stripe.com/docs/api
 logo: stripe.svg
 ---

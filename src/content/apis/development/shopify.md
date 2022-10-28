@@ -5,6 +5,7 @@ categories:
   - development
 features:
   https: true
+  payment: free
 url: https://shopify.dev/api
 logo: shopify.png
 ---
