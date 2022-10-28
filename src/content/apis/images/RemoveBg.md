@@ -5,6 +5,7 @@ categories:
   - images
 features:
   https: true
+  payment: upgradable
 url: https://www.remove.bg/api
 logo: rmbg.svg
 ---

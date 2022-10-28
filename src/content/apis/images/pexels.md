@@ -5,6 +5,7 @@ categories:
   - images
 features:
   https: true
+  payment: free
 url: https://www.pexels.com/api/documentation/
 logo: Pexels.png
 ---

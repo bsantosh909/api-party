@@ -5,6 +5,7 @@ categories:
   - images
 features:
   https: true
+  payment: free
 url: https://developers.giphy.com/
 logo:
 ---
