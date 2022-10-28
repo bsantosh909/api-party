@@ -5,6 +5,7 @@ categories:
   - movies
 features:
   https: true
+  payment: upgradable
 url: https://developer.nytimes.com/docs/movie-reviews-api/1/overview
 logo:
 ---

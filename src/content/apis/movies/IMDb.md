@@ -5,6 +5,7 @@ categories:
   - movies
 features:
   https: true
+  payment: upgradable
 url: https://imdb-api.com/api
 logo: imdb.jpg
 ---
