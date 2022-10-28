@@ -5,7 +5,7 @@ categories:
   - games
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://apidocs.cheapshark.com/?version=latest#intro
 logo: cheap-shark.png
 ---

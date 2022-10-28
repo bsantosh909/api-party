@@ -5,7 +5,7 @@ categories:
   - sports
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://www.balldontlie.io/#introduction
 logo:
 ---

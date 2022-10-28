@@ -6,7 +6,7 @@ categories:
   - entertainment
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://whatdoestrumpthink.com/api-docs/index.html
 logo: what-does-trump-think.png
 ---

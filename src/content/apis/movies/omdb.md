@@ -5,7 +5,7 @@ categories:
   - movies
 features:
   https: false
-  payment: upgradable
+  pricing: upgradable
 url: https://www.omdbapi.com/
 logo:
 ---

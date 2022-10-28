@@ -5,7 +5,7 @@ categories:
   - games
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://www.chess.com/news/view/published-data-api
 logo: chess.png
 ---

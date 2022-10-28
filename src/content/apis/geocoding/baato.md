@@ -5,7 +5,7 @@ categories:
   - geocoding
 features:
   https: true
-  payment: upgradable
+  pricing: upgradable
 url: https://docs.baato.io/#/
 logo: baato.jpg
 ---

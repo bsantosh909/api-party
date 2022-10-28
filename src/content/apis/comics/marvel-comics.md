@@ -5,7 +5,7 @@ categories:
   - comics
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://developer.marvel.com/
 logo:
 ---

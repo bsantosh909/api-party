@@ -6,7 +6,7 @@ categories:
   - entertainment
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://jokeapi.dev/
 logo:
 ---

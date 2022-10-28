@@ -5,7 +5,7 @@ categories:
   - health
 features:
   https: true
-  payment: upgradable
+  pricing: upgradable
 url: https://covid19api.com/
 logo: covid19-api.png
 ---

@@ -5,7 +5,7 @@ categories:
   - currency
 features:
   https: true
-  payment: paid
+  pricing: paid
 url: https://openexchangerates.org/
 logo: openexchangerates.png
 ---

@@ -5,7 +5,7 @@ categories:
   - entertainment
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://docs.genius.com/
 logo: genius.png
 ---

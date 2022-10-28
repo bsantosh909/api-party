@@ -5,7 +5,7 @@ categories:
   - geocoding
 features:
   https: false
-  payment: free
+  pricing: free
 url: https://ip-api.com/
 logo: ip.png
 ---

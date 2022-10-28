@@ -5,7 +5,7 @@ categories:
   - miscs
 features:
   https: true
-  payment: upgradable
+  pricing: upgradable
 url: https://shrtco.de/docs
 logo: shrtcode.png
 ---

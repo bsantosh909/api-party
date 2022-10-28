@@ -5,7 +5,7 @@ categories:
   - entertainment
 features:
   https: true
-  payment: upgradable
+  pricing: upgradable
 url: https://api.funtranslations.com/
 logo:
 ---

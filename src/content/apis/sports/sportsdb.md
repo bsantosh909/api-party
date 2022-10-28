@@ -5,7 +5,7 @@ categories:
   - sports
 features:
   https: true
-  payment: upgradable
+  pricing: upgradable
 url: https://www.thesportsdb.com/api.php
 logo:
 ---

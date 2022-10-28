@@ -5,7 +5,7 @@ categories:
   - cryptocurrency
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://github.com/binance/binance-spot-api-docs
 logo: binance.png
 ---

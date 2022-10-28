@@ -5,7 +5,7 @@ categories:
   - travel
 features:
   https: true
-  payment: upgradable
+  pricing: upgradable
 url: https://developers.skyscanner.net/docs/intro
 logo: skyscanner.svg
 ---

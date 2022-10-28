@@ -6,7 +6,7 @@ categories:
 features:
   https: true
   deprecate: true
-  payment: free
+  pricing: free
 url: https://onwater.io/
 logo: onwater.png
 ---

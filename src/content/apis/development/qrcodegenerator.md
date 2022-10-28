@@ -6,7 +6,7 @@ categories:
 features:
   https: true
   deprecated: false
-  payment: free
+  pricing: free
 url: https://goqr.me/api/doc/
 logo:
 ---

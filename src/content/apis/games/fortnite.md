@@ -5,7 +5,7 @@ categories:
   - games
 features:
   https: true
-  payment: upgradable
+  pricing: upgradable
 url: https://fortniteapi.io/
 logo:
 ---

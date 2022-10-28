@@ -5,7 +5,7 @@ categories:
   - anime
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://anilist.gitbook.io/anilist-apiv2-docs/
 logo: anilist.png
 ---

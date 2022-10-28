@@ -5,7 +5,7 @@ categories:
   - movies
 features:
   https: true
-  payment: paid
+  pricing: paid
 url: https://thetvdb.com/api-information
 logo: tv-db.png
 ---

@@ -5,7 +5,7 @@ categories:
   - social
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://discord.com/developers/docs/intro
 logo: discord.png
 ---

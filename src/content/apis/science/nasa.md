@@ -5,7 +5,7 @@ categories:
   - science
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://api.nasa.gov/
 logo: nasaapi.jpg
 ---

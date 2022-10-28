@@ -5,7 +5,7 @@ categories:
   - miscs
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://www.thecocktaildb.com/api.php
 logo:
 ---

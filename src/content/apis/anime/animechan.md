@@ -5,7 +5,7 @@ categories:
   - anime
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://animechan.vercel.app/
 logo: animechan.png
 ---

@@ -5,7 +5,7 @@ categories:
   - foods
 features:
   https: true
-  payment: upgradable
+  pricing: upgradable
 url: https://www.themealdb.com/api.php
 logo: themealdb.png
 ---

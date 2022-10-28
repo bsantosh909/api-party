@@ -5,7 +5,7 @@ categories:
   - anime
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://kitsu.docs.apiary.io/
 logo: kitsu.svg
 ---

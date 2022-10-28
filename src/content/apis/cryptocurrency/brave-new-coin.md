@@ -5,7 +5,7 @@ categories:
   - cryptocurrency
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://docs.bravenewcoin.com/
 logo: Brave-New-Coin.png
 ---

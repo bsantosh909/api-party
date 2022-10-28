@@ -5,7 +5,7 @@ categories:
   - art
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://harvardartmuseums.org/collections/api
 logo: harvard_art_museums_logo.png
 ---

@@ -5,7 +5,7 @@ categories:
   - test-data
 features:
   https: true
-  payment: paid
+  pricing: paid
 url: https://mockapi.io/docs
 logo: mockapi.png
 ---

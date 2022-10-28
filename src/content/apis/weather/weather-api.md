@@ -5,7 +5,7 @@ categories:
   - weather
 features:
   https: true
-  payment: paid
+  pricing: paid
 url: https://www.weatherapi.com/docs/
 logo: weatherAPI.webp
 ---

@@ -5,7 +5,7 @@ categories:
   - games
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://developer.riotgames.com/
 logo: riotgames.png
 ---

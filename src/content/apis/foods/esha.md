@@ -5,7 +5,7 @@ categories:
   - foods
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://esha.com/products/nutrition-database-api/
 logo: esha.png
 ---

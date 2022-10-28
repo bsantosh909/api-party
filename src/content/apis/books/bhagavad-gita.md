@@ -5,7 +5,7 @@ categories:
   - books
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://rapidapi.com/bhagavad-gita-bhagavad-gita-default/api/bhagavad-gita3
 logo: bhagavad-gita.png
 ---

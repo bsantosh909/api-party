@@ -5,7 +5,7 @@ categories:
   - images
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://apidocs.imgur.com/
 logo: imgur.png
 ---

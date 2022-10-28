@@ -5,7 +5,7 @@ categories:
   - news
 features:
   https: true
-  payment: upgradable
+  pricing: upgradable
 url: https://newsapi.org/
 logo:
 ---

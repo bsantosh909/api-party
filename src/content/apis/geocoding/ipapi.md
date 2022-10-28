@@ -5,7 +5,7 @@ categories:
   - geocoding
 features:
   https: true
-  payment: upgradable
+  pricing: upgradable
 url: http://ipapi.com/
 logo:
 ---

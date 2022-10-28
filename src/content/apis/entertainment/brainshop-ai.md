@@ -6,7 +6,7 @@ categories:
   - miscs
 features:
   https: true
-  payment: upgradable
+  pricing: upgradable
 url: https://brainshop.ai
 logo: brainshop.png
 ---

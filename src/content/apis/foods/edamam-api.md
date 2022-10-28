@@ -5,7 +5,7 @@ categories:
   - foods
 features:
   https: true
-  payment: upgradable
+  pricing: upgradable
 url: https://www.edamam.com/
 logo:
 ---

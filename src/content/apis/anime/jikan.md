@@ -5,7 +5,7 @@ categories:
   - anime
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://jikan.moe/
 logo: jikan.png
 ---

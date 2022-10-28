@@ -5,7 +5,7 @@ categories:
   - test-data
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://storerestapi.com/docs
 logo:
 ---

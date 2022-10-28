@@ -192,13 +192,13 @@
               <span>HTTPs</span>
             </div>
 
-            <!-- Payment badge -->
+            <!-- pricing badge -->
             <div
-              v-if="api.features.payment"
+              v-if="api.features.pricing"
               class="flex gap-x-1 items-center text-sm px-2 py-1 bg-blue-300 dark:bg-blue-700 border border-blue-400 dark:border-blue-800 rounded shadow"
             >
               <IconsMoney width="20" height="20" />
-              <span class="capitalize">{{ api.features.payment }}</span>
+              <span class="capitalize">{{ api.features.pricing }}</span>
             </div>
           </div>
         </div>

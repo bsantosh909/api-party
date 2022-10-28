@@ -5,7 +5,7 @@ categories:
   - games
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://brawlapi.com/
 logo: brawlapi.svg
 ---

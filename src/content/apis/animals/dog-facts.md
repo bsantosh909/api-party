@@ -5,7 +5,7 @@ categories:
   - animals
 features:
   https: true
-  payment: free
+  pricing: free
 url: https://www.dogfactsapi.ducnguyen.dev/docs
 logo:
 ---
