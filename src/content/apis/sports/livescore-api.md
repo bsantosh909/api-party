@@ -1,5 +1,5 @@
 ---
-name: LiveScore API
+name: Live Score API
 description: This API helps to query for matches, leagues, news, etc… to create a sporting site/application.
 categories:
   - sports

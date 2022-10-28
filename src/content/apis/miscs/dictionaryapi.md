@@ -5,6 +5,7 @@ categories:
   - miscs
 features:
   https: true
+  payment: free
 url: https://dictionaryapi.dev/
 logo:
 ---

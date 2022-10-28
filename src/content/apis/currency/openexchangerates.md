@@ -1,5 +1,5 @@
 ---
-name: OpenExchangeRates API
+name: Open Exchange Rates
 description: Consistent, reliable exchange rate data and currency conversion for your business.
 categories:
   - currency

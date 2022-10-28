@@ -5,6 +5,7 @@ categories:
   - health
 features:
   https: true
+  payment: paid
 url: https://rapidapi.com/ExoWatts/api/exercises2/
 logo: exercise.jpg
 ---

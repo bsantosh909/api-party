@@ -5,6 +5,7 @@ categories:
   - music
 features:
   https: true
+  payment: upgradable
 url: https://rapidapi.com/Glavier/api/genius-song-lyrics1/
 logo: Genius_API.png
 ---

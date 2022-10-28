@@ -5,6 +5,7 @@ categories:
   - miscs
 features:
   https: true
+  payment: paid
 url: https://rapidapi.com/telesign/api/telesign-sms-verify
 logo: telesignSMSVerify.png
 ---

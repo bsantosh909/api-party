@@ -5,6 +5,7 @@ categories:
   - geocoding
 features:
   https: true
+  payment: upgradable
 url: https://www.geolocation.com/ip-geolocation-api
 logo: geolocation.png
 ---
