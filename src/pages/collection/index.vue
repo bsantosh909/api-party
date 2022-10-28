@@ -103,19 +103,6 @@
               </label>
             </fieldset>
           </div>
-
-          <!-- Free APIs -->
-          <!-- <div class="p-2 mb-4 bg-gray-300 dark:bg-gray-700 rounded shadow">
-            <fieldset class="flex">
-              <input
-                type="checkbox"
-                id="free-api"
-                class="w-4 h-4 my-auto mr-2 cursor-pointer"
-                v-model="freeOnly"
-              />
-              <label for="free-api" class="cursor-pointer"> Free APIs </label>
-            </fieldset>
-          </div> -->
         </div>
       </div>
     </div>
@@ -213,13 +200,6 @@
               <IconsMoney width="20" height="20" />
               <span class="capitalize">{{ api.features.payment }}</span>
             </div>
-            <!-- <div
-              v-else
-              class="flex gap-x-1 items-center text-sm px-2 py-1 bg-blue-300 dark:bg-blue-700 border border-blue-400 dark:border-blue-800 rounded shadow"
-            >
-              <IconsMoney width="20" height="20" />
-              <span class="capitalize">Unknown</span>
-            </div> -->
           </div>
         </div>
       </div>
@@ -307,7 +287,6 @@ const searchInput = ref("");
 const selectedCategories = ref([]);
 const httpsOnly = ref(false);
 const showDeprecated = ref(false);
-// const freeOnly=ref(false)
 
 // Resetting skip value every time search input is changed
 watch([searchInput, httpsOnly, showDeprecated, selectedCategories], () => {
@@ -338,7 +317,6 @@ const filteredDataWithoutPagination = computed(() => {
       if (!showDeprecated.value) return !item.features?.deprecated;
       return true;
     })
-
     // Filter by categories
     .filter((item) => {
       if (!selectedCategories.value.length) return true;
