@@ -5,6 +5,7 @@ categories:
   - anime
 features:
   https: true
+  payment: free
 url: https://saucenao.com/
 logo: saucenao.gif
 ---

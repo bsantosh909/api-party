@@ -5,6 +5,7 @@ categories:
   - animals
 features:
   https: true
+  payment: upgradable
 url: https://docs.thecatapi.com/
 logo:
 ---

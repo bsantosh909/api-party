@@ -5,6 +5,7 @@ categories:
   - test-data
 features:
   https: true
+  payment: upgradable
 url: https://www.mockaroo.com/
 logo: mockaroo.png
 ---

@@ -5,6 +5,7 @@ categories:
   - entertainment
 features:
   https: true
+  payment: free
 url: https://web-series-quotes-api.deta.dev/docs
 logo:
 ---

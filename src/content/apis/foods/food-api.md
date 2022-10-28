@@ -5,6 +5,7 @@ categories:
   - foods
 features:
   https: true
+  payment: upgradable
 url: https://spoonacular.com/food-api
 logo: food-api.png
 ---

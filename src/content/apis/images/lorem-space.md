@@ -5,6 +5,7 @@ categories:
   - images
 features:
   https: true
+  payment: free
 url: https://lorem.space/api
 logo: lorem-space.png
 ---

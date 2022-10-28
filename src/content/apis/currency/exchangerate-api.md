@@ -5,6 +5,7 @@ categories:
   - currency
 features:
   https: true
+  payment: upgradable
 url: https://www.exchangerate-api.com/docs/overview
 logo: exchangerate-api.png
 ---

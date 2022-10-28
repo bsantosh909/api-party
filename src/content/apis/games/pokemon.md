@@ -6,6 +6,7 @@ categories:
   - entertainment
 features:
   https: true
+  payment: free
 url: https://api.pokemon.com/us/api/pokedex/kalos
 logo: pokemon.png
 ---

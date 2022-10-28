@@ -5,6 +5,7 @@ categories:
   - sports
 features:
   https: true
+  payment: upgradable
 url: https://rapidapi.com/apidojo/api/livescore6
 logo: livescore.png
 ---

@@ -5,6 +5,7 @@ categories:
   - games
 features:
   https: true
+  payment: free
 url: https://apexlegendsapi.com/
 logo: apex.png
 ---

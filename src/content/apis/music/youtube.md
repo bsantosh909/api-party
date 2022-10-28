@@ -5,6 +5,7 @@ categories:
   - music
 features:
   https: true
+  payment: free
 url: https://developers.google.com/youtube/v3
 logo: youtube.png
 ---

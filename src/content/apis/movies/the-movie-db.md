@@ -5,6 +5,7 @@ categories:
   - movies
 features:
   https: true
+  payment: free
 url: https://www.themoviedb.org/documentation/api
 logo: themoviedb.svg
 ---

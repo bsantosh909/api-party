@@ -5,6 +5,7 @@ categories:
   - anime
 features:
   https: true
+  payment: upgradable
 url: https://soruly.github.io/trace.moe-api/#/
 logo: trace-moe.png
 ---

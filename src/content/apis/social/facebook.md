@@ -5,6 +5,7 @@ categories:
   - social
 features:
   https: true
+  payment: free
 url: https://developers.facebook.com
 logo: facebook.png
 ---

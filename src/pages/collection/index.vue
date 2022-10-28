@@ -73,6 +73,7 @@
         </div>
 
         <!-- Other filers -->
+        <!-- HTTPs Only -->
         <div>
           <div class="p-2 mb-4 bg-gray-300 dark:bg-gray-700 rounded shadow">
             <fieldset class="flex">
@@ -88,6 +89,7 @@
             </fieldset>
           </div>
 
+          <!-- Show Deprecated-->
           <div class="p-2 bg-gray-300 dark:bg-gray-700 rounded shadow">
             <fieldset class="flex">
               <input
@@ -188,6 +190,15 @@
             >
               <IconsHttps width="20" height="20" />
               <span>HTTPs</span>
+            </div>
+
+            <!-- Payment badge -->
+            <div
+              v-if="api.features.payment"
+              class="flex gap-x-1 items-center text-sm px-2 py-1 bg-blue-300 dark:bg-blue-700 border border-blue-400 dark:border-blue-800 rounded shadow"
+            >
+              <IconsMoney width="20" height="20" />
+              <span class="capitalize">{{ api.features.payment }}</span>
             </div>
           </div>
         </div>

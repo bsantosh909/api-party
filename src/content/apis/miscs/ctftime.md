@@ -5,6 +5,7 @@ categories:
   - miscs
 features:
   https: true
+  payment: free
 url: https://ctftime.org/api/
 logo:
 ---

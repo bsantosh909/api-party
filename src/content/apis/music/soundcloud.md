@@ -5,6 +5,7 @@ categories:
   - music
 features:
   https: true
+  payment: free
 url: https://developers.soundcloud.com/
 logo: soundcloud.svg
 ---

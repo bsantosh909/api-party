@@ -5,6 +5,7 @@ categories:
   - games
 features:
   https: true
+  payment: upgradable
 url: https://rawg.io/apidocs
 logo:
 ---

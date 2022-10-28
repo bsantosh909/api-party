@@ -5,6 +5,7 @@ categories:
   - social
 features:
   https: true
+  payment: free
 url: https://developer.twitter.com/en/docs/twitter-api
 logo: twitter.png
 ---

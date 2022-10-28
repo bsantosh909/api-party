@@ -6,6 +6,7 @@ categories:
   - entertainment
 features:
   https: true
+  payment: free
 url: https://pokedevs.gitbook.io/pokedex/
 logo: pokedevs.png
 ---

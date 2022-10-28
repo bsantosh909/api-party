@@ -5,6 +5,7 @@ categories:
   - music
 features:
   https: true
+  payment: upgradable
 url: https://developer.musixmatch.com/documentation
 logo: musixmatch.png
 ---
