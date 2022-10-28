@@ -5,6 +5,7 @@ categories:
   - anime
 features:
   https: true
+  payment: free
 url: https://www.animenewsnetwork.com/encyclopedia/api.php
 logo: anime-news-network.png
 ---
