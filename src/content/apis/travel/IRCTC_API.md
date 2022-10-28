@@ -5,6 +5,7 @@ categories:
   - travel
 features:
   https: true
+  payment: upgradable
 url: https://rapidapi.com/IRCTCAPI/api/irctc1
 logo: irctc.png
 ---
