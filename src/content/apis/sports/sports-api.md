@@ -5,6 +5,7 @@ categories:
   - sports
 features:
   https: true
+  payment: paid
 url: https://api-sports.io/
 logo: sports-api.png
 ---

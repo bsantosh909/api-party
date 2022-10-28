@@ -5,6 +5,7 @@ categories:
   - test-data
 features:
   https: true
+  payment: upgradable
 url: https://fakerapi.it/en
 logo: faker-api.png
 ---
