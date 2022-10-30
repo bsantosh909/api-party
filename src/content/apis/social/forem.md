@@ -2,7 +2,7 @@
 name: Forem API
 description: Forem API, popularly used for Dev.to.
 categories:
-  - miscs
+  - social
 features:
   https: true
   pricing: free
