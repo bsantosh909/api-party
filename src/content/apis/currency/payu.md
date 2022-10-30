@@ -2,7 +2,8 @@
 name: PayU Payment API
 description: The most popular payment solution in India.
 categories:
-  - miscs
+  - currency
+  - development
 features:
   https: true
   pricing: paid
