@@ -5,7 +5,7 @@ categories:
   - currency
 features:
   https: true
-  pricing: paid
+  pricing: upgradable
 url: https://site.financialmodelingprep.com/developer/docs/
 logo:
 ---
