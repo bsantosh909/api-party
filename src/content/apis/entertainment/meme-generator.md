@@ -1,8 +1,8 @@
 ---
 name: Meme Generator API
-description: Meme Generator API.
+description: A rest API to generate memes of popular formats.
 categories:
-  - miscs
+  - entertainment
 features:
   https: true
   pricing: free
