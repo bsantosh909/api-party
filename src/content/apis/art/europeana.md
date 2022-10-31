@@ -5,6 +5,7 @@ categories:
   - art
 features:
   https: true
+  pricing: free
 url: https://pro.europeana.eu/page/search
 logo:
 ---
