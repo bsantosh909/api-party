@@ -1,6 +1,6 @@
 ---
 name: Utelly
-description: Utelly is a power content discovery tool that provides Metadata aggregation, search, recommendations and content promotion channels.
+description: Utelly is a content discovery platform designed for the entertainment industry.
 categories:
   - movies
 features:
