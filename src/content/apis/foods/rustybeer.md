@@ -7,5 +7,5 @@ features:
   https: true
   pricing: free
 url: https://rustybeer.herokuapp.com/docs
-logo: rustybeer.png
+logo:
 ---
