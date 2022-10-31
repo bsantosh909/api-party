@@ -7,5 +7,5 @@ features:
   https: true
   pricing: free
 url: https://rickandmortyapi.com
-logo: rickandmorty.png
+logo:
 ---
