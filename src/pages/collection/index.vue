@@ -147,10 +147,11 @@
 
             <div class="my-auto">
               <NuxtLink
-                :to="api.url"
+                :to="`${api.url}?ref=api-party`"
                 target="_blank"
                 class="group"
                 :prefetch="false"
+                external="true"
               >
                 <div class="flex gap-x-2">
                   <h2 class="text-xl font-semibold mb-2 group-hover:underline">
