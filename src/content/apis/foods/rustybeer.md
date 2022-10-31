@@ -1,5 +1,5 @@
 ---
-name: Whisky Hunter
+name: Rusty Beer
 description: Simple API to retrieve tools for beer brewing.
 categories:
   - food
