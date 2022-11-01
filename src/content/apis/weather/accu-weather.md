@@ -6,6 +6,6 @@ categories:
 features:
   https: true
   pricing: paid
-url: https://developer.accuweather.com/api
+url: https://developer.accuweather.com/
 logo: accuweather.png
 ---
