@@ -7,5 +7,5 @@ features:
   https: true
   pricing: free
 url: https://waifu.pics/docs
-logo: 
+logo:
 ---
