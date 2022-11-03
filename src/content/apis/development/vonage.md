@@ -5,6 +5,7 @@ categories:
   - development
 features:
   https: true
+  pricing: paid
 url: https://developer.vonage.com/
 logo: vonage.png
 ---
