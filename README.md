@@ -34,4 +34,4 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 A huge thanks to all the contributors listed below who have made this project a success 🙏
 
-<img src="https://contrib.rocks/image?repo=TheLearneer/api-party" />
+[![Contributors](https://contrib.rocks/image?repo=TheLearneer/api-party)](https://github.com/TheLearneer/api-party/graphs/contributors)
