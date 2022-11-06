@@ -8,5 +8,5 @@ features:
   https: true
   pricing: upgradable
 url: https://www.superheroapi.com/
-logo:
+logo: superhero.png
 ---
