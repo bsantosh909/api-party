@@ -6,7 +6,7 @@ categories:
   - entertainment
 features:
   https: true
-  pricing: upgradable
+  pricing: free
 url: https://www.superheroapi.com/
 logo: superhero.png
 ---
