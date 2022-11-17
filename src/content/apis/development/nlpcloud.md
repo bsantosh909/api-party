@@ -1,7 +1,6 @@
 ---
-name: NLPCloud
-description: Artificial Intelligence API for text understanding/generation (NLP) for summarizing, classifying, generating code,
-chatbots, etc.
+name: NLP Cloud
+description: Artificial Intelligence API for text understanding/generation (NLP) for summarizing, classifying, generating code etc.
 categories:
   - development
 features:
