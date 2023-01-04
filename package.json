@@ -2,6 +2,7 @@
   "name": "api-party",
   "version": "3.0.0",
   "private": true,
+  "license": "MIT",
   "author": {
     "name": "Santosh Bhandari",
     "email": "bsantosh909@gmail.com",
