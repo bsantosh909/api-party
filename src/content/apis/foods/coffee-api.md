@@ -5,6 +5,7 @@ categories:
   - foods
 features:
   https: true
+  pricing: free
 url: https://coffee.alexflipnote.dev/
 logo:
 ---

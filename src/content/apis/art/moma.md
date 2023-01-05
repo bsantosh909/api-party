@@ -5,6 +5,7 @@ categories:
   - art
 features:
   https: true
+  pricing: free
 url: https://api.moma.org/
 logo: moma_logo.png
 ---
