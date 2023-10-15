@@ -13,8 +13,8 @@
 
     <div class="text-center">
       <p class="my-2">
-        If you are wondering what is it all about, then this is an a small
-        project built to list the awesome API created by hundres of users and
+        If you are wondering what is it all about, then this is a small
+        project built to list the awesome API created by hundreds of users and
         companies around the world.
       </p>
 

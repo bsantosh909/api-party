@@ -3,7 +3,7 @@
     <div class="text-center">
       <h2 class="text-3xl">Want to learn about API?</h2>
       <p>
-        Get to know about different aspect of API through some detailed articles
+        Get to know about different aspects of API through some detailed articles
         right here!
       </p>
     </div>
