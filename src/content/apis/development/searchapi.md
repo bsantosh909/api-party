@@ -1,6 +1,6 @@
 ---
 name: SearchApi
-description:  Real-time API for scraping structured data from search engines.
+description: Real-time API for scraping structured data from search engines.
 categories:
   - development
 features:
