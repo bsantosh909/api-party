@@ -7,5 +7,5 @@ features:
   https: true
   pricing: free
 url: https://loripsum.net/
-logo: loripsum.png
+logo: loripsum.jpg
 ---
